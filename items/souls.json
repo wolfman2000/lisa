@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Village Chief",
+    "type": "toggle",
+    "img": "images/chief.png",
+    "codes": "chief"
+  },
+  {
+    "name": "Tree Guardian",
+    "type": "toggle",
+    "img": "images/guardian.png",
+    "codes": "guardian"
+  },
+  {
+    "name": "Mermaid",
+    "type": "toggle",
+    "img": "images/mermaid.png",
+    "codes": "mermaid"
+  },
+  {
+    "name": "Nome the Snail",
+    "type": "toggle",
+    "img": "images/nome.png",
+    "codes": "nome"
+  },
+  {
+    "name": "Alice the Doll",
+    "type": "toggle",
+    "img": "images/alice.png",
+    "codes": "alice"
+  },
+  {
+    "name": "King Maggrid",
+    "type": "toggle",
+    "img": "images/king.png",
+    "codes": "king"
+  }
+]

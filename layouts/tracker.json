@@ -1,0 +1,87 @@
+{
+  "shared_item_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "rows": [
+      [
+        "zantetsu",
+        "spirit",
+        "soulblade",
+        "icearmor",
+        "bubblearmor",
+        "soularmor",
+        "phoenix",
+        "dreamrod"
+      ],
+      [
+        "brownstone",
+        "greenstone",
+        "bluestone",
+        "silverstone",
+        "purplestone",
+        "blackstone",
+        "goatfood",
+        "redhotball"
+      ],
+      [
+        "pass",
+        "leobrush",
+        "seeds",
+        "greenleaves",
+        "moleribbon",
+        "thunderring",
+        "bigpearl",
+        "redhotmirror"
+      ],
+      [
+        "mushroomshoes",
+        "doorkey",
+        "actleaves",
+        "harpstring",
+        "platinumcard",
+        "vipcard",
+        "mobilekey",
+        "redhotrod"
+      ],
+      [
+        "emblema",
+        "emblemb",
+        "emblemc",
+        "emblemd",
+        "embleme",
+        "emblemf",
+        "emblemg",
+        "emblemh"
+      ],
+      [
+        "",
+        "chief",
+        "guardian",
+        "mermaid",
+        "nome",
+        "alice",
+        "king",
+        ""
+      ]
+    ]
+  },
+  "tracker_capture_item": {
+    "type": "container",
+    "content": {
+      "type": "layout",
+      "key": "shared_item_grid"
+    }
+  },
+  "tracker_default": {
+    "type": "container",
+    "width": "320",
+    "background": "#212121",
+    "content": {
+      "dropshadow": true,
+      "margin": 5,
+      "type": "layout",
+      "key": "shared_item_grid"
+    }
+  }
+}

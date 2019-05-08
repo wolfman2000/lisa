@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Dream Rod",
+    "type": "toggle",
+    "img": "images/dreamrod.png",
+    "codes": "dreamrod"
+  },
+  {
+    "name": "Goat's Food",
+    "type": "toggle",
+    "img": "images/goatfood.png",
+    "codes": "goatfood"
+  },
+  {
+    "name": "Pass",
+    "type": "toggle",
+    "img": "images/pass.png",
+    "codes": "pass"
+  },
+  {
+    "name": "Leo's Paintbrush",
+    "type": "toggle",
+    "img": "images/leobrush.png",
+    "codes": "leobrush"
+  },
+  {
+    "name": "Delicious Seeds",
+    "type": "toggle",
+    "img": "images/seeds.png",
+    "codes": "seeds"
+  },
+  {
+    "name": "Greenwood Leaves",
+    "type": "toggle",
+    "img": "images/greenleaves.png",
+    "codes": "greenleaves"
+  },
+  {
+    "name": "Mole's Ribbon",
+    "type": "toggle",
+    "img": "images/moleribbon.png",
+    "codes": "moleribbon"
+  },
+  {
+    "name": "Thunder Ring",
+    "type": "toggle",
+    "img": "images/thunderring.png",
+    "codes": "thunderring"
+  },
+  {
+    "name": "Big Pearl",
+    "type": "toggle",
+    "img": "images/bigpearl.png",
+    "codes": "bigpearl"
+  },
+  {
+    "name": "Mushroom Shoes",
+    "type": "toggle",
+    "img": "images/mushroomshoes.png",
+    "codes": "mushroomshoes"
+  },
+  {
+    "name": "Door Key",
+    "type": "toggle",
+    "img": "images/doorkey.png",
+    "codes": "doorkey"
+  },
+  {
+    "name": "Actinidia Leaves",
+    "type": "toggle",
+    "img": "images/actleaves.png",
+    "codes": "actleaves"
+  },
+  {
+    "name": "Harp String",
+    "type": "toggle",
+    "img": "images/harpstring.png",
+    "codes": "harpstring"
+  },
+  {
+    "name": "Platinum Card",
+    "type": "toggle",
+    "img": "images/platinumcard.png",
+    "codes": "platinumcard"
+  },
+  {
+    "name": "VIP Card",
+    "type": "toggle",
+    "img": "images/vipcard.png",
+    "codes": "vipcard"
+  },
+  {
+    "name": "Mobile Key",
+    "type": "toggle",
+    "img": "images/mobilekey.png",
+    "codes": "mobilekey"
+  },
+  {
+    "name": "Red-Hot Ball",
+    "type": "toggle",
+    "img": "images/redhotball.png",
+    "codes": "redhotball"
+  },
+  {
+    "name": "Red-Hot Mirror",
+    "type": "toggle",
+    "img": "images/redhotmirror.png",
+    "codes": "redhotmirror"
+  },
+  {
+    "name": "Red-Hot Rod",
+    "type": "toggle",
+    "img": "images/redhotrod.png",
+    "codes": "redhotrod"
+  }
+]

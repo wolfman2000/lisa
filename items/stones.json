@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Brown Stone",
+    "type": "toggle",
+    "img": "images/brownstone.png",
+    "codes": "brownstone"
+  },
+  {
+    "name": "Green Stone",
+    "type": "toggle",
+    "img": "images/greenstone.png",
+    "codes": "greenstone"
+  },
+  {
+    "name": "Blue Stone",
+    "type": "toggle",
+    "img": "images/bluestone.png",
+    "codes": "bluestone"
+  },
+  {
+    "name": "Silver Stone",
+    "type": "toggle",
+    "img": "images/silverstone.png",
+    "codes": "silverstone"
+  },
+  {
+    "name": "Purple Stone",
+    "type": "toggle",
+    "img": "images/purplestone.png",
+    "codes": "purplestone"
+  },
+  {
+    "name": "Black Stone",
+    "type": "toggle",
+    "img": "images/blackstone.png",
+    "codes": "blackstone"
+  }
+]
