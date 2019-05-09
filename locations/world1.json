@@ -1,0 +1,168 @@
+[
+  {
+    "name": "Grass Valley",
+    "color": "#A52A2A",
+    "children": [
+      {
+        "name": "Chief's House",
+        "map_locations": [
+          {
+            "map": "world1",
+            "x": 80,
+            "y": 425
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chief",
+            "access_rules": [
+              "w1villagechief,w1villagechiefhouse"
+            ],
+            "item_count": 1,
+            "hosted_item": "chief"
+          }
+        ]
+      },
+      {
+        "name": "Tool Shop",
+        "map_locations": [
+          {
+            "map": "world1",
+            "x": 380,
+            "y": 400
+          }
+        ],
+        "sections": [
+          {
+            "name": "Tool Shop Owner",
+            "access_rules": [
+              "w1toolshopowner"
+            ],
+            "item_count": 1
+          },
+          {
+            "name": "Tool Shop Owner's Son",
+            "access_rules": [
+              "w1toolshopowner,w1teddy"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Goat's Corner",
+        "map_locations": [
+          {
+            "map": "world1",
+            "x": 425,
+            "y": 600
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goat's Corner",
+            "access_rules": [
+              "w1goatpen"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Chest Cave",
+        "map_locations": [
+          {
+            "map": "world1",
+            "x": 570,
+            "y": 880
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chest Cave (& Crystal)",
+            "access_rules": [
+              "w1bridgeguard,w1ivytwochests"
+            ],
+            "item_count": 3
+          }
+        ]
+      },
+      {
+        "name": "Sleepy Tulip",
+        "map_locations": [
+          {
+            "map": "world1",
+            "x": 720,
+            "y": 870
+          }
+        ],
+        "sections": [
+          {
+            "name": "Push Left",
+            "access_rules": [
+              "w1bridgeguard,w1ivysoutheast"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Cliff Overlooking Tulip",
+        "map_locations": [
+          {
+            "map": "world1",
+            "x": 740,
+            "y": 795
+          }
+        ],
+        "sections": [
+          {
+            "name": "Left-most cliff",
+            "access_rules": [
+              "w1bridgeguard,w1ivysoutheast,w1ivyemblema"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hideout Tile",
+        "map_locations": [
+          {
+            "map": "world1",
+            "x": 650,
+            "y": 180
+          }
+        ],
+        "sections": [
+          {
+            "name": "Lower-right most outlook",
+            "access_rules": [
+              "w1bridgeguard,pass"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hideout Crystal",
+        "map_locations": [
+          {
+            "map": "world1",
+            "x": 650,
+            "y": 80
+          }
+        ],
+        "sections": [
+          {
+            "name": "Lower-right most outlook",
+            "access_rules": [
+              "w1bridgeguard,pass,w1ivyhideoutcrystal"
+            ],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  }
+]

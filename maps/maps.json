@@ -1,0 +1,26 @@
+[
+  {
+    "name": "world1",
+    "img": "images/maps/world1.png"
+  },
+  {
+    "name": "world2",
+    "img": "images/maps/world2.png"
+  },
+  {
+    "name": "world3",
+    "img": "images/maps/world3.png"
+  },
+  {
+    "name": "world4",
+    "img": "images/maps/world4.png"
+  },
+  {
+    "name": "world5",
+    "img": "images/maps/world5.png"
+  },
+  {
+    "name": "world6",
+    "img": "images/maps/world6.png"
+  }
+]

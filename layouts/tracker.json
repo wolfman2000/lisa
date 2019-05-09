@@ -75,13 +75,170 @@
   },
   "tracker_default": {
     "type": "container",
-    "width": "320",
     "background": "#212121",
     "content": {
+      "type": "dock",
       "dropshadow": true,
-      "margin": 5,
-      "type": "layout",
-      "key": "shared_item_grid"
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "h_alignment": "stretch",
+          "content": [
+            {
+              "type": "dock",
+              "dock": "left",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Items",
+                  "dock": "top",
+                  "content": {
+                    "type": "layout",
+                    "key": "shared_item_grid"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "header": "Pinned Locations",
+              "content": {
+                "type": "recentpins",
+                "style": "wrap",
+                "h_alignment": "stretch",
+                "v_alignment": "stretch",
+                "orientation": "horizontal",
+                "compact": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Grass Valley",
+              "content": {
+                "type": "array",
+                "orientation": "horizontal",
+                "content": [
+                  {
+                    "type": "map",
+                    "maps": ["world1"]
+                  },
+                  {
+                    "type": "array",
+                    "orientation": "vertical",
+                    "h_alignment": "center",
+                    "content": [
+                      {
+                        "type": "item",
+                        "item": "w1architect"
+                      },
+                      {
+                        "type": "item",
+                        "item": "w1boyguardinghideout"
+                      },
+                      {
+                        "type": "item",
+                        "item": "w1bridgeguard"
+                      },
+                      {
+                        "type": "item",
+                        "item": "w1goatpen"
+                      },
+                      {
+                        "type": "item",
+                        "item": "w1ivyemblema"
+                      },
+                      {
+                        "type": "item",
+                        "item": "w1ivyhideoutcrystal"
+                      },
+                      {
+                        "type": "item",
+                        "item": "w1ivysoutheast"
+                      },
+                      {
+                        "type": "item",
+                        "item": "w1ivytwochests"
+                      },
+                      {
+                        "type": "item",
+                        "item": "w1leoshouse"
+                      },
+                      {
+                        "type": "item",
+                        "item": "w1lisa"
+                      },
+                      {
+                        "type": "item",
+                        "item": "w1sleepytulip"
+                      },
+                      {
+                        "type": "item",
+                        "item": "w1toolshopowner"
+                      },
+                      {
+                        "type": "item",
+                        "item": "w1teddy"
+                      },
+                      {
+                        "type": "item",
+                        "item": "w1villagechief"
+                      },
+                      {
+                        "type": "item",
+                        "item": "w1villagechiefhouse"
+                      },
+                      {
+                        "type": "item",
+                        "item": "w1watermillkeeper"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Woods of Greenwood",
+              "content": {
+                "type": "map",
+                "maps": ["world2"]
+              }
+            },
+            {
+              "title": "Seabed Sanctuary",
+              "content": {
+                "type": "map",
+                "maps": ["world3"]
+              }
+            },
+            {
+              "title": "Mountain of Souls",
+              "content": {
+                "type": "map",
+                "maps": ["world4"]
+              }
+            },
+            {
+              "title": "Dr. Leo's Lab",
+              "content": {
+                "type": "map",
+                "maps": ["world5"]
+              }
+            },
+            {
+              "title": "Magridd Castle",
+              "content": {
+                "type": "map",
+                "maps": ["world6"]
+              }
+            }
+          ]
+        }
+      ]
     }
   }
 }
