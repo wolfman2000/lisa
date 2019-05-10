@@ -6,9 +6,13 @@ Tracker:AddItems( "items/souls.json" )
 Tracker:AddItems( "items/stones.json" )
 Tracker:AddItems( "items/labels.json" )
 
+ScriptHost:LoadScript( "scripts/logic.lua" )
+
 Tracker:AddMaps( "maps/maps.json" )
 
-Tracker:AddLocations( "locations/world1.json" )
+for i=1,2 do
+  Tracker:AddLocations( "locations/world" .. i .. ".json" )
+end
 
 Tracker:AddLayouts( "layouts/tracker.json" )
 Tracker:AddLayouts( "layouts/broadcast.json" )

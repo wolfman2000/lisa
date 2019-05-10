@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Woods of Greenwood",
+    "color": "#00AA00",
+    "access_rules": ["$canEnterArea2"],
+    "children": [
+      {
+        "name": "Greenwood's Guardian",
+        "map_locations": [
+          {
+            "map": "world2",
+            "x": 375,
+            "y": 230
+          }
+        ],
+        "access_rules": ["w2guardian"],
+        "sections": [
+          {
+            "name": "Guardian's item",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Master Crystal",
+        "map_locations": [
+          {
+            "map": "world2",
+            "x": 195,
+            "y": 180
+          }
+        ],
+        "access_rules": [
+          "w2deer,w2crocodiledeer,$hasAllEmblems",
+          "{w2deer,w2crocodiledeer}"
+        ],
+        "sections": [
+          {
+            "name": "All 8 Emblems...",
+            "capture_item": true,
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Woodstin Trio",
+        "map_locations": [
+          {
+            "map": "world2",
+            "x": 515,
+            "y": 280
+          }
+        ],
+        "access_rules": ["$hasWoodstinTrio"],
+        "sections": [
+          {
+            "name": "Always right",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Flying Bird",
+        "map_locations": [
+          {
+            "map": "world2",
+            "x": 65,
+            "y": 270
+          }
+        ],
+        "access_rules": ["w2bird"],
+        "sections": [
+          {
+            "name": "Sneak carefully...",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Sleepy Stump Chest",
+        "map_locations": [
+          {
+            "map": "world2",
+            "x": 100,
+            "y": 670
+          }
+        ],
+        "access_rules": [ "dreamrod,w2holesleepystump"],
+        "sections": [
+          {
+            "name": "I believe I can fly...",
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  }
+]
