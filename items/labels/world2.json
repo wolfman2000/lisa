@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Flying Bird",
+    "type": "toggle",
+    "img": "images/labels/world2/bird.png",
+    "codes": "w2bird"
+  },
+  {
+    "name": "Crocodile to Deer",
+    "type": "toggle",
+    "img": "images/labels/world2/crocodiledeer.png",
+    "codes": "w2crocodiledeer"
+  },
+  {
+    "name": "Crocodile at Graveyard",
+    "type": "toggle",
+    "img": "images/labels/world2/crocodilegraveyard.png",
+    "codes": "w2crocodilegraveyard"
+  },
+  {
+    "name": "Crocodile forming Island",
+    "type": "toggle",
+    "img": "images/labels/world2/crocodileisland.png",
+    "codes": "w2crocodileisland"
+  },
+  {
+    "name": "Deer revealing Crystal",
+    "type": "toggle",
+    "img": "images/labels/world2/deer.png",
+    "codes": "w2deer"
+  },
+  {
+    "name": "Woods Guardian",
+    "type": "toggle",
+    "img": "images/labels/world2/guardian.png",
+    "codes": "w2guardian"
+  },
+  {
+    "name": "W2 Monmo's Hole",
+    "type": "toggle",
+    "img": "images/labels/world2/holemonmo.png",
+    "codes": "w2holemonmo"
+  },
+  {
+    "name": "Hole for the Outside Mole",
+    "type": "toggle",
+    "img": "images/labels/world2/holeoutside.png",
+    "codes": "w2holeoutside"
+  },
+  {
+    "name": "Hole to the Sleepy Stump",
+    "type": "toggle",
+    "img": "images/labels/world2/holesleepystump.png",
+    "codes": "w2holesleepystump"
+  },
+  {
+    "name": "Mole starting Outside",
+    "type": "toggle",
+    "img": "images/labels/world2/moleoutside.png",
+    "codes": "w2moleoutside"
+  },
+  {
+    "name": "Mole with Soul of Light",
+    "type": "toggle",
+    "img": "images/labels/world2/molesoul.png",
+    "codes": "w2molesoul"
+  },
+  {
+    "name": "Monmo",
+    "type": "toggle",
+    "img": "images/labels/world2/monmo.png",
+    "codes": "w2monmo"
+  },
+  {
+    "name": "Sleepy Bird",
+    "type": "toggle",
+    "img": "images/labels/world2/sleepybird.png",
+    "codes": "w2sleepybird"
+  },
+  {
+    "name": "Squirrel that wants Delicious Seeds",
+    "type": "toggle",
+    "img": "images/labels/world2/squirrelhungry.png",
+    "codes": "w2squirrelhungry"
+  },
+  {
+    "name": "Roommate of Hungry Squirrel",
+    "type": "toggle",
+    "img": "images/labels/world2/squirrelroommate.png",
+    "codes": "w2squirrelroommate"
+  },
+  {
+    "name": "Lonely Squirrel in Left Tree",
+    "type": "toggle",
+    "img": "images/labels/world2/squirrellonely.png",
+    "codes": "w2squirrellonely"
+  },
+  {
+    "name": "Squirrel by the Sleepy Stump",
+    "type": "toggle",
+    "img": "images/labels/world2/squirrelsleepy.png",
+    "codes": "w2squirrelsleepy"
+  },
+  {
+    "name": "Woodstin Trio - Deer",
+    "type": "toggle",
+    "img": "images/labels/world2/woodstindeer.png",
+    "codes": "w2woodstindeer"
+  },
+  {
+    "name": "Woodstin Trio - Dog",
+    "type": "toggle",
+    "img": "images/labels/world2/woodstindog.png",
+    "codes": "w2woodstindog"
+  },
+  {
+    "name": "Woodstin Trio - Squirrel",
+    "type": "toggle",
+    "img": "images/labels/world2/woodstinsquirrel.png",
+    "codes": "w2woodstinsquirrel"
+  }
+]

@@ -1,26 +1,38 @@
 [
   {
     "name": "world1",
-    "img": "images/maps/world1.png"
+    "img": "images/maps/world1.png",
+    "location_size": 30,
+    "location_border_thickness": 2
   },
   {
     "name": "world2",
-    "img": "images/maps/world2.png"
+    "img": "images/maps/world2.png",
+    "location_size": 30,
+    "location_border_thickness": 2
   },
   {
     "name": "world3",
-    "img": "images/maps/world3.png"
+    "img": "images/maps/world3.png",
+    "location_size": 30,
+    "location_border_thickness": 2
   },
   {
     "name": "world4",
-    "img": "images/maps/world4.png"
+    "img": "images/maps/world4.png",
+    "location_size": 30,
+    "location_border_thickness": 2
   },
   {
     "name": "world5",
-    "img": "images/maps/world5.png"
+    "img": "images/maps/world5.png",
+    "location_size": 30,
+    "location_border_thickness": 2
   },
   {
     "name": "world6",
-    "img": "images/maps/world6.png"
+    "img": "images/maps/world6.png",
+    "location_size": 30,
+    "location_border_thickness": 2
   }
 ]

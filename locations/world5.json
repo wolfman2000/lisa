@@ -1,0 +1,7 @@
+[
+  {
+    "name": "Dr. Leo's Lab",
+    "chest_unopened_img": "images/chestclosed.png",
+    "chest_opened_img": "images/chestopen.png"
+  }
+]

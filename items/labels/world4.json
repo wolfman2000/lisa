@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Boy with Gift",
+    "type": "toggle",
+    "img": "images/labels/world4/boygift.png",
+    "codes": "w4boygift"
+  },
+  {
+    "name": "Boy opening West Tunnel",
+    "type": "toggle",
+    "img": "images/labels/world4/boywest.png",
+    "codes": "w4boywest"
+  },
+  {
+    "name": "Dancing Grandma 1",
+    "type": "toggle",
+    "img": "images/labels/world4/dancinggrandma1.png",
+    "codes": "w4dancinggrandma1"
+  },
+  {
+    "name": "Dancing Grandma 2",
+    "type": "toggle",
+    "img": "images/labels/world4/dancinggrandma2.png",
+    "codes": "w4dancinggrandma2"
+  },
+  {
+    "name": "Girl opening East Tunnel",
+    "type": "toggle",
+    "img": "images/labels/world4/girl.png",
+    "codes": "w4girl"
+  },
+  {
+    "name": "Grandpa opening the Lake",
+    "type": "toggle",
+    "img": "images/labels/world4/grandpalake.png",
+    "codes": "w4grandpalake"
+  },
+  {
+    "name": "Grandpa guarding Lune",
+    "type": "toggle",
+    "img": "images/labels/world4/grandpalune.png",
+    "codes": "w4grandpalune"
+  },
+  {
+    "name": "Grandpa guarding Nome and prisoners",
+    "type": "toggle",
+    "img": "images/labels/world4/grandpanome.png",
+    "codes": "w4grandpanome"
+  },
+  {
+    "name": "Grandpa opening Southwest Tunnel",
+    "type": "toggle",
+    "img": "images/labels/world4/grandpasouthwest.png",
+    "codes": "w4grandpasouthwest"
+  },
+  {
+    "name": "Mountain King",
+    "type": "toggle",
+    "img": "images/labels/world4/mountainking.png",
+    "codes": "w4mountainking"
+  },
+  {
+    "name": "Mushroom opening South Tunnel",
+    "type": "toggle",
+    "img": "images/labels/world4/mushroomsouth.png",
+    "codes": "w4mushroomsouth"
+  },
+  {
+    "name": "Nome the Snail",
+    "type": "toggle",
+    "img": "images/labels/world4/nome.png",
+    "codes": "w4nome"
+  },
+  {
+    "name": "Sleepy Mushroom in Jail",
+    "type": "toggle",
+    "img": "images/labels/world4/sleepymushroom.png",
+    "codes": "w4sleepymushroom"
+  },
+  {
+    "name": "Secret Snail",
+    "type": "toggle",
+    "img": "images/labels/world4/snail.png",
+    "codes": "w4snail"
+  }
+]

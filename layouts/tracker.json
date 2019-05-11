@@ -242,15 +242,15 @@
                       },
                       {
                         "type": "item",
-                        "item": "w2holemonmo"
-                      },
-                      {
-                        "type": "item",
                         "item": "w2holesleepystump"
                       },
                       {
                         "type": "item",
                         "item": "w2moleoutside"
+                      },
+                      {
+                        "type": "item",
+                        "item": "w2holeoutside"
                       },
                       {
                         "type": "item",
@@ -266,15 +266,19 @@
                       },
                       {
                         "type": "item",
-                        "item": "w2squirrelarmor"
+                        "item": "w2squirrelhungry"
                       },
                       {
                         "type": "item",
-                        "item": "w2squirrelemblem"
+                        "item": "w2squirrelroommate"
                       },
                       {
                         "type": "item",
-                        "item": "w2squirrelpsycho"
+                        "item": "w2squirrellonely"
+                      },
+                      {
+                        "type": "item",
+                        "item": "w2squirrelsleepy"
                       },
                       {
                         "type": "item",

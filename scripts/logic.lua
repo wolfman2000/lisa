@@ -23,22 +23,44 @@ function canEnterArea7()
 end
 
 function hasAllEmblems()
-  return (
-    Tracker:ProviderCountForCode( "emblema" ) and
-    Tracker:ProviderCountForCode( "emblemb" ) and
-    Tracker:ProviderCountForCode( "emblemc" ) and
-    Tracker:ProviderCountForCode( "emblemd" ) and
-    Tracker:ProviderCountForCode( "embleme" ) and
-    Tracker:ProviderCountForCode( "emblemf" ) and
-    Tracker:ProviderCountForCode( "emblemg" ) and
-    Tracker:ProviderCountForCode( "emblemh" )
-  )
+  -- TODO: Find a way to loop this.
+  if Tracker:ProviderCountForCode( "emblema" ) <= 0 then
+    return 0
+  end
+  if Tracker:ProviderCountForCode( "emblemb" ) <= 0 then
+    return 0
+  end
+  if Tracker:ProviderCountForCode( "emblemc" ) <= 0 then
+    return 0
+  end
+  if Tracker:ProviderCountForCode( "emblemd" ) <= 0 then
+    return 0
+  end
+  if Tracker:ProviderCountForCode( "embleme" ) <= 0 then
+    return 0
+  end
+  if Tracker:ProviderCountForCode( "emblemf" ) <= 0 then
+    return 0
+  end
+  if Tracker:ProviderCountForCode( "emblemg" ) <= 0 then
+    return 0
+  end
+  if Tracker:ProviderCountForCode( "emblemh" ) <= 0 then
+    return 0
+  end
+  return 1
 end
 
-function hasWoodstinTrio()
-  return (
-    Tracker:ProviderCountForCode( "w2woodstindeer" ) and
-    Tracker:ProviderCountForCode( "w2woodstindog" ) and
-    Tracker:ProviderCountForCode( "w2woodstinsquirrel" )
-  )
+function canDefeatMetalMonsters()
+  if Tracker:ProviderCountForCode( "zantetsu" ) > 0 then
+    return 1
+  end
+  return Tracker:ProviderCountForCode( "soulblade" )
+end
+
+function canDefeatSpiritMonsters()
+  if Tracker:ProviderCountForCode( "spirit" ) > 0 then
+    return 1
+  end
+  return Tracker:ProviderCountForCode( "soulblade" )
 end

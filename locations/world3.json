@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Seabed Sanctuary",
+    "color": "#0000CC",
+    "chest_unopened_img": "images/chestclosed.png",
+    "chest_opened_img": "images/chestopen.png",
+    "access_rules": ["$canEnterArea3"],
+    "children": [
+      {
+        "name": "Mermaid Queen",
+        "map_locations": [
+          {
+            "map": "world3",
+            "x": 500,
+            "y": 160
+          }
+        ],
+        "access_rules": ["w3mermaidqueen"],
+        "sections": [
+          {
+            "name": "To the next act!",
+            "hosted_item": "mermaid"
+          }
+        ]
+      },
+      {
+        "name": "Mermaid Common House",
+        "access_rules": ["w3mermaidhouse"],
+        "children": [
+          {
+            "name": "Main Mermaid",
+            "map_locations": [
+              {
+                "map": "world3",
+                "x": 500,
+                "y": 800
+              }
+            ],
+            "sections": [
+              {
+                "name": "Thanks for the house.",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Secret Chest",
+            "map_locations": [
+              {
+                "map": "world3",
+                "x": 800,
+                "y": 900
+              }
+            ],
+            "sections": [
+              {
+                "name": "Secret Chest",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Back of Southerta",
+            "access_rules": ["[bubblearmor]"],
+            "map_locations": [
+              {
+                "map": "world3",
+                "x": 500,
+                "y": 940
+              }
+            ],
+            "chest_unopened_img": "images/monsterlairopen.png",
+            "chest_opened_img": "images/monsterlairsealed.png",
+            "sections": [
+              {
+                "name": "One lonely lair...",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -34,5 +34,23 @@
     "type": "toggle",
     "img": "images/king.png",
     "codes": "king"
+  },
+  {
+    "name": "Soul of Light",
+    "type": "toggle",
+    "img": "images/soullight.png",
+    "codes": "soullight"
+  },
+  {
+    "name": "Soul of Detection",
+    "type": "toggle",
+    "img": "images/soullight.png",
+    "codes": "souldetection"
+  },
+  {
+    "name": "Soul of Reality",
+    "type": "toggle",
+    "img": "images/soullight.png",
+    "codes": "soulreality"
   }
 ]

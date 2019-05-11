@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Architect",
+    "type": "toggle",
+    "img": "images/labels/world1/architect.png",
+    "codes": "w1architect"
+  },
+  {
+    "name": "Boy guarding hideout",
+    "type": "toggle",
+    "img": "images/labels/world1/boyguardinghideout.png",
+    "codes": "w1boyguardinghideout"
+  },
+  {
+    "name": "Bridge Guard",
+    "type": "toggle",
+    "img": "images/labels/world1/bridgeguard.png",
+    "codes": "w1bridgeguard"
+  },
+  {
+    "name": "East Goat Pen",
+    "type": "toggle",
+    "img": "images/labels/world1/goatpen.png",
+    "codes": "w1goatpen"
+  },
+  {
+    "name": "Ivy to Cliff Item",
+    "type": "toggle",
+    "img": "images/labels/world1/ivyemblema.png",
+    "codes": "w1ivyemblema"
+  },
+  {
+    "name": "Ivy to Hideout Crystal",
+    "type": "toggle",
+    "img": "images/labels/world1/ivyrecoveryswordcrystal.png",
+    "codes": "w1ivyhideoutcrystal"
+  },
+  {
+    "name": "Ivy to Southeast Grass Valley",
+    "type": "toggle",
+    "img": "images/labels/world1/ivysoutheast.png",
+    "codes": "w1ivysoutheast"
+  },
+  {
+    "name": "Ivy to Chest Hideout",
+    "type": "toggle",
+    "img": "images/labels/world1/ivytwochests.png",
+    "codes": "w1ivytwochests"
+  },
+  {
+    "name": "Leo's House",
+    "type": "toggle",
+    "img": "images/labels/world1/leoshouse.png",
+    "codes": "w1leoshouse"
+  },
+  {
+    "name": "Lisa",
+    "type": "toggle",
+    "img": "images/labels/world1/lisa.png",
+    "codes": "w1lisa"
+  },
+  {
+    "name": "Pushable Tulip",
+    "type": "toggle",
+    "img": "images/labels/world1/sleepytulip.png",
+    "codes": "w1sleepytulip"
+  },
+  {
+    "name": "Tool Shop Owner",
+    "type": "toggle",
+    "img": "images/labels/world1/toolshopowner.png",
+    "codes": "w1toolshopowner"
+  },
+  {
+    "name": "Teddy (Tool Shop Owner's Son)",
+    "type": "toggle",
+    "img": "images/labels/world1/toolshopownerson.png",
+    "codes": "w1teddy"
+  },
+  {
+    "name": "Village Chief",
+    "type": "toggle",
+    "img": "images/labels/world1/villagechief.png",
+    "codes": "w1villagechief"
+  },
+  {
+    "name": "Village Chief's House",
+    "type": "toggle",
+    "img": "images/labels/world1/villagechiefhouse.png",
+    "codes": "w1villagechiefhouse"
+  },
+  {
+    "name": "Watermill Keeper",
+    "type": "toggle",
+    "img": "images/labels/world1/watermillkeeper.png",
+    "codes": "w1watermillkeeper"
+  }
+]

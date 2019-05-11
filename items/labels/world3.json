@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Dolphin to Northeast",
+    "type": "toggle",
+    "img": "images/labels/world3/dolphinnortheast.png",
+    "codes": "w3dolphinnortheast"
+  },
+  {
+    "name": "Dolphin breaking Lue free",
+    "type": "toggle",
+    "img": "images/labels/world3/dolphinprisonbreak.png",
+    "codes": "w3dolphinprisonbreak"
+  },
+  {
+    "name": "Sleepy Dolphin",
+    "type": "toggle",
+    "img": "images/labels/world3/dolphinsleepy.png",
+    "codes": "w3dolphinsleepy"
+  },
+  {
+    "name": "Dolphin at West",
+    "type": "toggle",
+    "img": "images/labels/world3/dolphinwest.png",
+    "codes": "w3dolphinwest"
+  },
+  {
+    "name": "Lue the Dolphin",
+    "type": "toggle",
+    "img": "images/labels/world3/lue.png",
+    "codes": "w3lue"
+  },
+  {
+    "name": "Mermaid with gift inside of Common House",
+    "type": "toggle",
+    "img": "images/labels/world3/mermaidgift.png",
+    "codes": "w3mermaidgift"
+  },
+  {
+    "name": "Mermaid spawned with Common House",
+    "type": "toggle",
+    "img": "images/labels/world3/mermaidhouse.png",
+    "codes": "w3mermaidhouse"
+  },
+  {
+    "name": "Mermaid at Northeast",
+    "type": "toggle",
+    "img": "images/labels/world3/mermaidnortheast.png",
+    "codes": "w3mermaidnortheast"
+  },
+  {
+    "name": "Mermaid Queen",
+    "type": "toggle",
+    "img": "images/labels/world3/mermaidqueen.png",
+    "codes": "w3mermaidqueen"
+  },
+  {
+    "name": "Mermaid guarding West Prison",
+    "type": "toggle",
+    "img": "images/labels/world3/mermaidwestguard.png",
+    "codes": "w3mermaidwestguard"
+  },
+  {
+    "name": "Mermaid in West Room of Common House",
+    "type": "toggle",
+    "img": "images/labels/world3/mermaidwesthouse.png",
+    "codes": "w3mermaidwesthouse"
+  },
+  {
+    "name": "Mermaid Statue to Blester",
+    "type": "toggle",
+    "img": "images/labels/world3/statueblester.png",
+    "codes": "w3statueblester"
+  },
+  {
+    "name": "Mermaid Statue to Durean",
+    "type": "toggle",
+    "img": "images/labels/world3/statuedurean.png",
+    "codes": "w3statuedurean"
+  },
+  {
+    "name": "Mermaid Statue to Ghost Ship",
+    "type": "toggle",
+    "img": "images/labels/world3/statueghostship.png",
+    "codes": "w3statueghostship"
+  },
+  {
+    "name": "Mermaid Statue to Rockbird",
+    "type": "toggle",
+    "img": "images/labels/world3/statuerockbird.png",
+    "codes": "w3statuerockbird"
+  }
+]
