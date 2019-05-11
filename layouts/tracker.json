@@ -60,7 +60,7 @@
         "guardian",
         "mermaid",
         "nome",
-        "alice",
+        "marie",
         "king",
         ""
       ]
@@ -414,6 +414,10 @@
                       },
                       {
                         "type": "item",
+                        "item": "w4grandpanorthwest"
+                      },
+                      {
+                        "type": "item",
                         "item": "w4grandpalake"
                       },
                       {
@@ -483,6 +487,10 @@
                       {
                         "type": "item",
                         "item": "w5doormodel"
+                      },
+                      {
+                        "type": "item",
+                        "item": "w5doorsoul"
                       },
                       {
                         "type": "item",
@@ -587,6 +595,10 @@
                       {
                         "type": "item",
                         "item": "w6soldiercastle"
+                      },
+                      {
+                        "type": "item",
+                        "item": "w6soldiersoul"
                       },
                       {
                         "type": "item",

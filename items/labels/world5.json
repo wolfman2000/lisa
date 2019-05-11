@@ -24,6 +24,12 @@
     "codes": "w5doormodel"
   },
   {
+    "name": "Door containing Soul of Detection",
+    "type": "toggle",
+    "img": "images/labels/world5/doorsoul.png",
+    "codes": "w5doorsoul"
+  },
+  {
     "name": "Door to Southwest Drawer",
     "type": "toggle",
     "img": "images/labels/world5/doorsouthwest.png",

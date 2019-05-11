@@ -30,6 +30,12 @@
     "codes": "w6singer"
   },
   {
+    "name": "Soldier (Soul of Reality)",
+    "type": "toggle",
+    "img": "images/labels/world6/soldiersoul.png",
+    "codes": "w6soldiersoul"
+  },
+  {
     "name": "Soldier Asleep at the West",
     "type": "toggle",
     "img": "images/labels/world6/sleepysoldier.png",

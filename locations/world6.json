@@ -2,6 +2,258 @@
   {
     "name": "Magridd Castle",
     "chest_unopened_img": "images/chestclosed.png",
-    "chest_opened_img": "images/chestopen.png"
+    "chest_opened_img": "images/chestopen.png",
+    "color": "#000000",
+    "access_rules": ["marie"],
+    "children": [
+      {
+        "name": "Sleepy Soldier",
+        "map_locations": [
+          {
+            "map": "world6",
+            "x": 30,
+            "y": 480
+          }
+        ],
+        "access_rules": ["dreamrod,w6sleepysoldier"],
+        "sections": [
+          {
+            "name": "Wake up please.",
+            "capture_item": true,
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Concert Hall",
+        "access_rules": ["w6singer,w6soldierconcert,harpstring"],
+        "map_locations": [
+          {
+            "map": "world6",
+            "x": 125,
+            "y": 840
+          }
+        ],
+        "sections": [
+          {
+            "name": "Nice music. Go to where the soldier stood.",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Maid at the Bar",
+        "map_locations": [
+          {
+            "map": "world6",
+            "x": 860,
+            "y": 825
+          }
+        ],
+        "access_rules": ["w6maid"],
+        "sections": [
+          {
+            "name": "Recharging",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "The Queen",
+        "access_rules": ["w6queen"],
+        "map_locations": [
+          {
+            "map": "world6",
+            "x": 895,
+            "y": 475
+          }
+        ],
+        "sections": [
+          {
+            "name": "Meet the Queen (never major)",
+            "item_count": 1
+          },
+          {
+            "name": "RIP the Queen (post Leo's Death)",
+            "access_rules": ["w6leo,w6soldierdok,w6soldieroct"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "The Castle",
+        "access_rules": ["w6soldiercastle"],
+        "children": [
+          {
+            "name": "King Maggrid",
+            "access_rules": ["w6king"],
+            "map_locations": [
+              {
+                "map": "world6",
+                "x": 490,
+                "y": 130
+              }
+            ],
+            "sections": [
+              {
+                "name": "Long live...",
+                "hosted_item": "king"
+              }
+            ]
+          },
+          {
+            "name": "Item on the Grounds",
+            "map_locations": [
+              {
+                "map": "world6",
+                "x": 585,
+                "y": 195
+              }
+            ],
+            "sections": [
+              {
+                "name": "Please be a good one.",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Soldier (Soul of Reality)",
+        "access_rules": ["w6soldiersoul"],
+        "map_locations": [
+          {
+            "map": "world6",
+            "x": 575,
+            "y": 830
+          }
+        ],
+        "sections": [
+          {
+            "name": "Secrets of the Castle...",
+            "hosted_item": "soulreality"
+          }
+        ]
+      },
+      {
+        "name": "Lairs",
+        "access_rules": ["[$canDefeatSpiritMonsters]"],
+        "chest_unopened_img": "images/monsterlairopen.png",
+        "chest_opened_img": "images/monsterlairsealed.png",
+        "children": [
+          {
+            "name": "Magridd Dungeon",
+            "map_locations": [
+              {
+                "map": "world6",
+                "x": 190,
+                "y": 105
+              }
+            ],
+            "sections": [
+              {
+                "name": "1st Level (2 Souls & 3 Items)",
+                "clear_as_group": false,
+                "item_count": 5
+              },
+              {
+                "name": "2nd Level Souls",
+                "clear_as_group": false,
+                "item_count": 6
+              },
+              {
+                "name": "2nd Level Secret Items",
+                "clear_as_group": false,
+                "access_rules": ["[soulreality]"],
+                "chest_unopened_img": "images/chestclosed.png",
+                "chest_opened_img": "images/chestopen.png",
+                "item_count": 3
+              },
+              {
+                "name": "3rd Level Souls",
+                "clear_as_group": false,
+                "item_count": 4
+              },
+              {
+                "name": "3rd Level Secret Item",
+                "access_rules": ["[soulreality]"],
+                "chest_unopened_img": "images/chestclosed.png",
+                "chest_opened_img": "images/chestopen.png",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Left Tower",
+            "access_rules": ["w6soldierleft,platinumcard"],
+            "map_locations": [
+              {
+                "map": "world6",
+                "x": 30,
+                "y": 140
+              }
+            ],
+            "sections": [
+              {
+                "name": "1st Floor",
+                "item_count": 1
+              },
+              {
+                "name": "2nd Floor",
+                "access_rules": ["[soulreality]"],
+                "clear_as_group": false,
+                "item_count": 2
+              },
+              {
+                "name": "3rd Floor (4 Souls & 1 Item)",
+                "clear_as_group": false,
+                "item_count": 5
+              }
+            ]
+          },
+          {
+            "name": "Right Tower",
+            "access_rules": ["w6soldierright,vipcard"],
+            "map_locations": [
+              {
+                "map": "world6",
+                "x": 975,
+                "y": 140
+              }
+            ],
+            "sections": [
+              {
+                "name": "1st Floor",
+                "clear_as_group": false,
+                "item_count": 3
+              },
+              {
+                "name": "2nd Floor (1 Soul & 2 Items)",
+                "clear_as_group": false,
+                "item_count": 3
+              },
+              {
+                "name": "3rd Floor (1 Soul & 2 Items)",
+                "clear_as_group": false,
+                "item_count": 3
+              },
+              {
+                "name": "Dr. Leo",
+                "chest_unopened_img": "images/monsterlairopen.png",
+                "chest_opened_img": "images/monsterlairsealed.png",
+                "access_rules": ["w6leo,w6soldierdok,w6soldieroct"],
+                "item_count": 1
+              },
+              {
+                "name": "Magridd Boss",
+                "access_rules": ["w6leo,w6soldierdok,w6soldieroct,mobilekey"],
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

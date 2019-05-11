@@ -32,13 +32,31 @@
             "map_locations": [
               {
                 "map": "world3",
-                "x": 500,
-                "y": 800
+                "x": 525,
+                "y": 875
               }
             ],
             "sections": [
               {
                 "name": "Thanks for the house.",
+                "capture_item": true,
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Mermaid with Gift",
+            "map_locations": [
+              {
+                "map": "world3",
+                "x": 500,
+                "y": 800
+              }
+            ],
+            "access_rules": ["w3mermaidgift"],
+            "sections": [
+              {
+                "name": "Mermaid with Gift",
                 "item_count": 1
               }
             ]
@@ -60,23 +78,242 @@
             ]
           },
           {
-            "name": "Back of Southerta",
+            "name": "Underwater...",
             "access_rules": ["[bubblearmor]"],
+            "chest_unopened_img": "images/monsterlairopen.png",
+            "chest_opened_img": "images/monsterlairsealed.png",
+            "children": [
+              {
+                "name": "Back of Southerta",
+                "map_locations": [
+                  {
+                    "map": "world3",
+                    "x": 500,
+                    "y": 940
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "One lonely lair...",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Blester",
+                "access_rules": ["w3statueblester"],
+                "map_locations": [
+                  {
+                    "map": "world3",
+                    "x": 555,
+                    "y": 440
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Passage to Blester (3 Souls & 1 Item)",
+                    "clear_as_group": false,
+                    "item_count": 4
+                  },
+                  {
+                    "name": "Blester (non metal creatures)",
+                    "clear_as_group": false,
+                    "item_count": 5
+                  },
+                  {
+                    "name": "Blester Metal Gorrilas",
+                    "access_rules": ["$canDefeatMetalGorillas"],
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Rockbird Gate",
+                "access_rules": ["w3statuerockbird"],
+                "children": [
+                  {
+                    "name": "Rockbird",
+                    "map_locations": [
+                      {
+                        "map": "world3",
+                        "x": 555,
+                        "y": 535
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Passage to Rockbird",
+                        "item_count": 1
+                      },
+                      {
+                        "name": "Rockbird (4 Souls & 3 Items)",
+                        "clear_as_group": false,
+                        "item_count": 7
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Durean",
+                    "access_rules": ["w3statuedurean"],
+                    "map_locations": [
+                      {
+                        "map": "world3",
+                        "x": 455,
+                        "y": 535
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Passage to Durean (1 Soul & 1 Item)",
+                        "clear_as_group": false,
+                        "item_count": 2
+                      },
+                      {
+                        "name": "Durean Accessible Spots (5 Souls & 1 Item)",
+                        "clear_as_group": false,
+                        "item_count": 6
+                      },
+                      {
+                        "name": "Durean Metal Gorillas",
+                        "access_rules": ["$canDefeatMetalMonsters"],
+                        "item_count": 1
+                      },
+                      {
+                        "name": "Durean Lava Protected (2 Souls & 1 Item)",
+                        "clear_as_group": false,
+                        "item_count": 3
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Ghost Ship",
+                    "access_rules": ["w3statueghostship"],
+                    "map_locations": [
+                      {
+                        "map": "world3",
+                        "x": 455,
+                        "y": 440
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "name": "Passage to Ghost Ship (2 Souls & 1 Item)",
+                        "clear_as_group": false,
+                        "item_count": 3
+                      },
+                      {
+                        "name": "Ghost Ship (1 Soul & 1 Item)",
+                        "clear_as_group": false,
+                        "item_count": 2
+                      },
+                      {
+                        "name": "Secret Cove",
+                        "access_rules": ["dreamrod,bigpearl,w3mermaidwestguard,w3dolphinsleepy"],
+                        "item_count": 4
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "West Prison Entrance",
+        "access_rules": ["w3mermaidwestguard"],
+        "children": [
+          {
+            "name": "Lue the Dolphin",
+            "access_rules": ["w3dolphinprisonbreak,w3lue"],
             "map_locations": [
               {
                 "map": "world3",
-                "x": 500,
-                "y": 940
+                "x": 165,
+                "y": 655
               }
             ],
-            "chest_unopened_img": "images/monsterlairopen.png",
-            "chest_opened_img": "images/monsterlairsealed.png",
             "sections": [
               {
-                "name": "One lonely lair...",
+                "name": "Prison Break!",
                 "item_count": 1
               }
             ]
+          },
+          {
+            "name": "Southwest of Sanctuary",
+            "access_rules": ["w3dolphinwest"],
+            "children": [
+              {
+                "name": "Southwest Dolphin",
+                "map_locations": [
+                  {
+                    "map": "world3",
+                    "x": 60,
+                    "y": 720
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Ride the nose",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Mermaid in Common House Hidden Room",
+                "map_locations": [
+                  {
+                    "map": "world3",
+                    "x": 280,
+                    "y": 900
+                  }
+                ],
+                "access_rules": ["w3mermaidhouse,w3mermaidwesthouse"],
+                "sections": [
+                  {
+                    "name": "How'd you find me?",
+                    "item_count": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mermaid in Northeast House",
+        "access_rules": ["w3dolphinnortheast,w3mermaidnortheast"],
+        "map_locations": [
+          {
+            "map": "world3",
+            "x": 850,
+            "y": 160
+          }
+        ],
+        "sections": [
+          {
+            "name": "Lonely Mermaid",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Front of Southerta",
+        "chest_unopened_img": "images/monsterlairopen.png",
+        "chest_opened_img": "images/monsterlairsealed.png",
+        "map_locations": [
+          {
+            "map": "world3",
+            "x": 505,
+            "y": 470
+          }
+        ],
+        "sections": [
+          {
+            "name": "5 Souls, 1 Item",
+            "clear_as_group": false,
+            "item_count": 6
           }
         ]
       }

@@ -2,6 +2,192 @@
   {
     "name": "Mountain of Lost Souls",
     "chest_unopened_img": "images/chestclosed.png",
-    "chest_opened_img": "images/chestopen.png"
+    "chest_opened_img": "images/chestopen.png",
+    "access_rules": ["$canEnterArea4"],
+    "color": "#C0C0C0",
+    "children": [
+      {
+        "name": "Laynole Mountain (without Mushroom Shoes)",
+        "chest_unopened_img": "images/monsterlairopen.png",
+        "chest_opened_img": "images/monsterlairsealed.png",
+        "map_locations": [
+          {
+            "map": "world4",
+            "x": 450,
+            "y": 65
+          }
+        ],
+        "sections": [
+          {
+            "name": "Starting Climb (3 Souls & 1 Item)",
+            "clear_as_group": false,
+            "item_count": 4
+          },
+          {
+            "name": "Buried Treasure (4 Souls & 4 Items)",
+            "clear_as_group": false,
+            "item_count": 8
+          },
+          {
+            "name": "ICE PHYSICS!!! (2 Souls & 1 Item)",
+            "clear_as_group": false,
+            "item_count": 3
+          }
+        ]
+      },
+      {
+        "name": "Laynole Mountain (with Mushroom Shoes)",
+        "chest_unopened_img": "images/monsterlairopen.png",
+        "chest_opened_img": "images/monsterlairsealed.png",
+        "access_rules": ["mushroomshoes"],
+        "map_locations": [
+          {
+            "map": "world4",
+            "x": 490,
+            "y": 65
+          }
+        ],
+        "sections": [
+          {
+            "name": "ICE PHYSICS!!!",
+            "item_count": 1
+          },
+          {
+            "name": "HILL PHYSICS!!!",
+            "clear_as_group": false,
+            "item_count": 6
+          },
+          {
+            "name": "INVISIBLE BRIDGES!!! (5 Souls & 1 Item)",
+            "clear_as_group": false,
+            "item_count": 6
+          }
+        ]
+      },
+      {
+        "name": "Boy with Gift",
+        "access_rules": ["w4boygift"],
+        "map_locations": [
+          {
+            "map": "world4",
+            "x": 475,
+            "y": 385
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hope this helps!",
+            "capture_item": true,
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Secret Snail",
+        "access_rules": ["w4snail"],
+        "map_locations": [
+          {
+            "map": "world4",
+            "x": 650,
+            "y": 390
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fake Northern Wall",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Southeast Lake",
+        "access_rules": ["w4girl,w4grandpalake"],
+        "children": [
+          {
+            "name": "Lune",
+            "access_rules": ["w4grandpalune"],
+            "chest_unopened_img": "images/monsterlairopen.png",
+            "chest_opened_img": "images/monsterlairsealed.png",
+            "map_locations": [
+              {
+                "map": "world4",
+                "x": 880,
+                "y": 390
+              }
+            ],
+            "sections": [
+              {
+                "name": "Last of Invisible Bridges",
+                "chest_unopened_img": "images/monsterlairopen.png",
+                "chest_opened_img": "images/monsterlairsealed.png",
+                "clear_as_group": false,
+                "item_count": 2
+              },
+              {
+                "name": "Passage to Lune (2 Souls & 1 Item)",
+                "clear_as_group": false,
+                "item_count": 3
+              },
+              {
+                "name": "Lune & Boss",
+                "clear_as_group": false,
+                "item_count": 4
+              },
+              {
+                "name": "Lune (Dreamed Soul and Item)",
+                "clear_as_group": false,
+                "access_rules": ["dreamrod,w4mushroomsouth,w4grandpanome,w4sleepymushroom"],
+                "item_count": 2
+              }
+            ]
+          },
+          {
+            "name": "Nome the Snail",
+            "access_rules": ["w4mushroomsouth,w4grandpanome,w4nome"],
+            "map_locations": [
+              {
+                "map": "world4",
+                "x": 510,
+                "y": 710
+              }
+            ],
+            "sections": [
+              {
+                "name": "Free the snail!",
+                "hosted_item": "nome"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Above the King",
+        "access_rules": [
+          "w4boygift,w4boywest",
+          "w4grandpanorthwest,w4boywest"
+        ],
+        "children": [
+          {
+            "name": "Mountain King",
+            "access_rules": [
+              "w4mountainking,w4dancinggrandma1,w4dancinggrandma2,w4grandpasouthwest"
+            ],
+            "map_locations": [
+              {
+                "map": "world4",
+                "x": 260,
+                "y": 860
+              }
+            ],
+            "sections": [
+              {
+                "name": "DANCING GRANDMAS!",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

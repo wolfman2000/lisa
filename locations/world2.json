@@ -171,6 +171,7 @@
           {
             "name": "Hungry Squirrel",
             "access_rules": ["seeds"],
+            "capture_item": true,
             "item_count": 1
           },
           {

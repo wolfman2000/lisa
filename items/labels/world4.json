@@ -30,6 +30,12 @@
     "codes": "w4girl"
   },
   {
+    "name": "Grandpa opening Northwest Room",
+    "type": "toggle",
+    "img": "images/labels/world4/grandpanorthwest.png",
+    "codes": "w4grandpanorthwest"
+  },
+  {
     "name": "Grandpa opening the Lake",
     "type": "toggle",
     "img": "images/labels/world4/grandpalake.png",

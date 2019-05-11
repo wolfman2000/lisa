@@ -3,23 +3,38 @@ function canEnterArea2()
 end
 
 function canEnterArea3()
-  return canEnterArea2() and Tracker:ProviderCountForCode( "guardian" )
+  if canEnterArea2() <= 0 then
+    return 0
+  end
+  return Tracker:ProviderCountForCode( "guardian" )
 end
 
 function canEnterArea4()
-  return canEnterArea3() and Tracker:ProviderCountForCode( "mermaid" )
+  if canEnterArea3() <= 0 then
+    return 0
+  end
+  return Tracker:ProviderCountForCode( "mermaid" )
 end
 
 function canEnterArea5()
-  return canEnterArea4() and Tracker:ProviderCountForCode( "nome" )
+  if canEnterArea4() <= 0 then
+    return 0
+  end
+  return Tracker:ProviderCountForCode( "nome" )
 end
 
 function canEnterArea6()
-  return canEnterArea5() and Tracker:ProviderCountForCode( "alice" )
+  if canEnterArea5() <= 0 then
+    return 0
+  end
+  return Tracker:ProviderCountForCode( "marie" )
 end
 
 function canEnterArea7()
-  return canEnterArea6() and Tracker:ProviderCountForCode( "king" )
+  if canEnterArea6() <= 0 then
+    return 0
+  end
+  return Tracker:ProviderCountForCode( "king" )
 end
 
 function hasAllEmblems()
@@ -56,6 +71,13 @@ function canDefeatMetalMonsters()
     return 1
   end
   return Tracker:ProviderCountForCode( "soulblade" )
+end
+
+function canDefeatMetalGorillas()
+  if canDefeatMetalMonsters() > 0 then
+    return 1
+  end
+  return Tracker:ProviderCountForCode( "thunderring" )
 end
 
 function canDefeatSpiritMonsters()

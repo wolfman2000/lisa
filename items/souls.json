@@ -24,10 +24,10 @@
     "codes": "nome"
   },
   {
-    "name": "Alice the Doll",
+    "name": "Marie the Doll",
     "type": "toggle",
-    "img": "images/alice.png",
-    "codes": "alice"
+    "img": "images/marie.png",
+    "codes": "marie"
   },
   {
     "name": "King Magridd",
