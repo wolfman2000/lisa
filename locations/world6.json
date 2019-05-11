@@ -75,7 +75,7 @@
           },
           {
             "name": "RIP the Queen (post Leo's Death)",
-            "access_rules": ["w6leo,w6soldierdok,w6soldieroct"],
+            "access_rules": ["ripleo"],
             "item_count": 1
           }
         ]
@@ -229,9 +229,9 @@
                 "item_count": 3
               },
               {
-                "name": "2nd Floor (1 Soul & 2 Items)",
+                "name": "2nd Floor (2 Souls & 2 Items)",
                 "clear_as_group": false,
-                "item_count": 3
+                "item_count": 4
               },
               {
                 "name": "3rd Floor (1 Soul & 2 Items)",
@@ -243,7 +243,7 @@
                 "chest_unopened_img": "images/monsterlairopen.png",
                 "chest_opened_img": "images/monsterlairsealed.png",
                 "access_rules": ["w6leo,w6soldierdok,w6soldieroct"],
-                "item_count": 1
+                "hosted_item": "ripleo"
               },
               {
                 "name": "Magridd Boss",

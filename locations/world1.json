@@ -63,7 +63,7 @@
             "map_locations": [
               {
                 "map": "world1",
-                "x": 380,
+                "x": 355,
                 "y": 400
               }
             ],
@@ -113,8 +113,8 @@
             "map_locations": [
               {
                 "map": "world1",
-                "x": 570,
-                "y": 880
+                "x": 575,
+                "y": 940
               }
             ],
             "sections": [

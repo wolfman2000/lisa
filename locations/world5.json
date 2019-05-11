@@ -50,11 +50,15 @@
           {
             "name": "After Fire Section (1 Soul & 1 Item)",
             "access_rules": ["[icearmor]"],
+            "chest_unopened_img": "images/monsterlairopen.png",
+            "chest_opened_img": "images/monsterlairsealed.png",
             "clear_as_group": false,
             "item_count": 2
           },
           {
             "name": "Boss",
+            "chest_unopened_img": "images/monsterlairopen.png",
+            "chest_opened_img": "images/monsterlairsealed.png",
             "access_rules": ["$canDefeatMetalMonsters,[icearmor]"],
             "item_count": 1
           }
@@ -259,9 +263,9 @@
                 "chest_opened_img": "images/monsterlairsealed.png",
                 "sections": [
                   {
-                    "name": "Go to town. (2 Souls & 2 Items)",
+                    "name": "Go to town. (3 Souls & 2 Items)",
                     "clear_as_group": false,
-                    "item_count": 4
+                    "item_count": 5
                   }
                 ]
               }
