@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Emblem A",
+    "type": "toggle",
+    "img": "images/emblems/emblema.png",
+    "codes": "emblema"
+  },
+  {
+    "name": "Emblem B",
+    "type": "toggle",
+    "img": "images/emblems/emblemb.png",
+    "codes": "emblemb"
+  },
+  {
+    "name": "Emblem C",
+    "type": "toggle",
+    "img": "images/emblems/emblemc.png",
+    "codes": "emblemc"
+  },
+  {
+    "name": "Emblem D",
+    "type": "toggle",
+    "img": "images/emblems/emblemd.png",
+    "codes": "emblemd"
+  },
+  {
+    "name": "Emblem E",
+    "type": "toggle",
+    "img": "images/emblems/embleme.png",
+    "codes": "embleme"
+  },
+  {
+    "name": "Emblem F",
+    "type": "toggle",
+    "img": "images/emblems/emblemf.png",
+    "codes": "emblemf"
+  },
+  {
+    "name": "Emblem G",
+    "type": "toggle",
+    "img": "images/emblems/emblemg.png",
+    "codes": "emblemg"
+  },
+  {
+    "name": "Emblem H",
+    "type": "toggle",
+    "img": "images/emblems/emblemh.png",
+    "codes": "emblemh"
+  }
+]

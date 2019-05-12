@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Village Chief",
+    "type": "toggle",
+    "img": "images/souls/chief.png",
+    "codes": "chief"
+  },
+  {
+    "name": "Tree Guardian",
+    "type": "toggle",
+    "img": "images/souls/guardian.png",
+    "codes": "guardian"
+  },
+  {
+    "name": "Mermaid",
+    "type": "toggle",
+    "img": "images/souls/mermaid.png",
+    "codes": "mermaid"
+  },
+  {
+    "name": "Nome the Snail",
+    "type": "toggle",
+    "img": "images/souls/nome.png",
+    "codes": "nome"
+  },
+  {
+    "name": "Marie the Doll",
+    "type": "toggle",
+    "img": "images/souls/marie.png",
+    "codes": "marie"
+  },
+  {
+    "name": "King Magridd",
+    "type": "toggle",
+    "img": "images/souls/king.png",
+    "codes": "king"
+  },
+  {
+    "name": "Soul of Light",
+    "type": "toggle",
+    "img": "images/tracker/soullight.png",
+    "codes": "soullight"
+  },
+  {
+    "name": "Soul of Detection",
+    "type": "toggle",
+    "img": "images/tracker/soullight.png",
+    "codes": "souldetection"
+  },
+  {
+    "name": "Soul of Reality",
+    "type": "toggle",
+    "img": "images/tracker/soullight.png",
+    "codes": "soulreality"
+  },
+  {
+    "name": "RIP Leo",
+    "type": "toggle",
+    "img": "images/tracker/gravestone.png",
+    "codes": "ripleo"
+  }
+]

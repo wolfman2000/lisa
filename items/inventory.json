@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Dream Rod",
+    "type": "toggle",
+    "img": "images/inventory/dreamrod.png",
+    "codes": "dreamrod"
+  },
+  {
+    "name": "Goat's Food",
+    "type": "toggle",
+    "img": "images/inventory/goatfood.png",
+    "codes": "goatfood"
+  },
+  {
+    "name": "Pass",
+    "type": "toggle",
+    "img": "images/inventory/pass.png",
+    "codes": "pass"
+  },
+  {
+    "name": "Leo's Paintbrush",
+    "type": "toggle",
+    "img": "images/inventory/leobrush.png",
+    "codes": "leobrush"
+  },
+  {
+    "name": "Delicious Seeds",
+    "type": "toggle",
+    "img": "images/inventory/seeds.png",
+    "codes": "seeds"
+  },
+  {
+    "name": "Greenwood Leaves",
+    "type": "toggle",
+    "img": "images/inventory/greenleaves.png",
+    "codes": "greenleaves"
+  },
+  {
+    "name": "Mole's Ribbon",
+    "type": "toggle",
+    "img": "images/inventory/moleribbon.png",
+    "codes": "moleribbon"
+  },
+  {
+    "name": "Thunder Ring",
+    "type": "toggle",
+    "img": "images/inventory/thunderring.png",
+    "codes": "thunderring"
+  },
+  {
+    "name": "Mermaid Tears",
+    "type": "toggle",
+    "img": "images/inventory/mermaidtears.png",
+    "codes": "mermaidtears"
+  },
+  {
+    "name": "Big Pearl",
+    "type": "toggle",
+    "img": "images/inventory/bigpearl.png",
+    "codes": "bigpearl"
+  },
+  {
+    "name": "Mushroom Shoes",
+    "type": "toggle",
+    "img": "images/inventory/mushroomshoes.png",
+    "codes": "mushroomshoes"
+  },
+  {
+    "name": "Door Key",
+    "type": "toggle",
+    "img": "images/inventory/doorkey.png",
+    "codes": "doorkey"
+  },
+  {
+    "name": "Actinidia Leaves",
+    "type": "toggle",
+    "img": "images/inventory/actleaves.png",
+    "codes": "actleaves"
+  },
+  {
+    "name": "Harp String",
+    "type": "toggle",
+    "img": "images/inventory/harpstring.png",
+    "codes": "harpstring"
+  },
+  {
+    "name": "Platinum Card",
+    "type": "toggle",
+    "img": "images/inventory/platinumcard.png",
+    "codes": "platinumcard"
+  },
+  {
+    "name": "VIP Card",
+    "type": "toggle",
+    "img": "images/inventory/vipcard.png",
+    "codes": "vipcard"
+  },
+  {
+    "name": "Mobile Key",
+    "type": "toggle",
+    "img": "images/inventory/mobilekey.png",
+    "codes": "mobilekey"
+  },
+  {
+    "name": "Red-Hot Ball",
+    "type": "toggle",
+    "img": "images/inventory/redhotball.png",
+    "codes": "redhotball"
+  },
+  {
+    "name": "Red-Hot Mirror",
+    "type": "toggle",
+    "img": "images/inventory/redhotmirror.png",
+    "codes": "redhotmirror"
+  },
+  {
+    "name": "Red-Hot Rod",
+    "type": "toggle",
+    "img": "images/inventory/redhotrod.png",
+    "codes": "redhotrod"
+  }
+]

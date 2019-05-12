@@ -1,0 +1,298 @@
+[
+  {
+    "name": "Woods of Greenwood",
+    "color": "#00AA00",
+    "chest_unopened_img": "images/tracker/chestclosed.png",
+    "chest_opened_img": "images/tracker/chestopen.png",
+    "access_rules": ["$canEnterArea2"],
+    "children": [
+      {
+        "name": "Greenwood's Guardian",
+        "map_locations": [
+          {
+            "map": "world2",
+            "x": 375,
+            "y": 230
+          }
+        ],
+        "access_rules": ["w2guardian"],
+        "sections": [
+          {
+            "name": "Guardian's item",
+            "hosted_item": "guardian"
+          }
+        ]
+      },
+      {
+        "name": "Master Crystal",
+        "map_locations": [
+          {
+            "map": "world2",
+            "x": 195,
+            "y": 180
+          }
+        ],
+        "access_rules": [
+          "w2deer,w2crocodiledeer,$hasAllEmblems",
+          "{w2deer,w2crocodiledeer}"
+        ],
+        "sections": [
+          {
+            "name": "All 8 Emblems...",
+            "capture_item": true,
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Woodstin Trio",
+        "map_locations": [
+          {
+            "map": "world2",
+            "x": 515,
+            "y": 280
+          }
+        ],
+        "access_rules": ["w2woodstindeer,w2woodstindog,w2woodstinsquirrel"],
+        "sections": [
+          {
+            "name": "Always right",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Flying Bird",
+        "map_locations": [
+          {
+            "map": "world2",
+            "x": 65,
+            "y": 270
+          }
+        ],
+        "access_rules": ["w2bird"],
+        "sections": [
+          {
+            "name": "Sneak carefully...",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Mole Outside",
+        "access_rules": ["w2moleoutside,w2holeoutside"],
+        "map_locations": [
+          {
+            "map": "world2",
+            "x": 230,
+            "y": 465
+          }
+        ],
+        "sections": [
+          {
+            "name": "Guide them home",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Hole to Sleepy Stump",
+        "access_rules": ["w2holesleepystump"],
+        "children": [
+          {
+            "name": "Sleepy Stump Chest",
+            "map_locations": [
+              {
+                "map": "world2",
+                "x": 100,
+                "y": 670
+              }
+            ],
+            "access_rules": [ "dreamrod,w2squirrelsleepy" ],
+            "sections": [
+              {
+                "name": "I believe I can fly...",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Monmo's Gift",
+            "access_rules": ["moleribbon,w2monmo"],
+            "map_locations": [
+              {
+                "map": "world2",
+                "x": 310,
+                "y": 490
+              }
+            ],
+            "sections": [
+              {
+                "name": "Ribbon exchanged for...",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hole to Turbo's Remains",
+        "access_rules": ["w2molesoul"],
+        "map_locations": [
+          {
+            "map": "world2",
+            "x": 425,
+            "y": 475
+          }
+        ],
+        "sections": [
+          {
+            "name": "Soul of Light",
+            "hosted_item": "soullight"
+          },
+          {
+            "name": "RIP Turbo",
+            "access_rules": ["w2crocodileisland,w2crocodilegraveyard,w2sleepybird"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Right Squirrel Tree",
+        "access_rules": ["w2squirrelhungry"],
+        "map_locations": [
+          {
+            "map": "world2",
+            "x": 550,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hungry Squirrel",
+            "access_rules": ["seeds"],
+            "capture_item": true,
+            "item_count": 1
+          },
+          {
+            "name": "Hungry Squirrel's Roommate",
+            "access_rules": ["w2squirrelroommate"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Lonely Squirrel",
+        "access_rules": ["w2squirrellonely"],
+        "map_locations": [
+          {
+            "map": "world2",
+            "x": 165,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Thanks for visiting.",
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Water Shrine",
+        "chest_unopened_img": "images/tracker/monsterlairopen.png",
+        "chest_opened_img": "images/tracker/monsterlairsealed.png",
+        "map_locations": [
+          {
+            "map": "world2",
+            "x": 725,
+            "y": 475
+          }
+        ],
+        "sections": [
+          {
+            "name": "Outside Water Shrine: 2 Souls",
+            "clear_as_group": false,
+            "item_count": 2
+          },
+          {
+            "name": "Inside Water Shrine: 7 Souls & 7 Items",
+            "clear_as_group": false,
+            "item_count": 14
+          }
+        ]
+      },
+      {
+        "name": "Fire Shrine",
+        "chest_unopened_img": "images/tracker/monsterlairopen.png",
+        "chest_opened_img": "images/tracker/monsterlairsealed.png",
+        "map_locations": [
+          {
+            "map": "world2",
+            "x": 725,
+            "y": 400
+          }
+        ],
+        "sections": [
+          {
+            "name": "Outside Fire Shrine: 1 Soul",
+            "item_count": 1
+          },
+          {
+            "name": "Inside Fire Shrine: 10 Souls & 3 Items",
+            "clear_as_group": false,
+            "item_count": 13
+          },
+          {
+            "name": "Inside Fire Shrine: Metal Monsters: 1 Soul & 2 Items",
+            "clear_as_group": false,
+            "access_rules": ["$canDefeatMetalMonsters"],
+            "item_count": 3
+          }
+        ]
+      },
+      {
+        "name": "Light Shrine",
+        "chest_unopened_img": "images/tracker/monsterlairopen.png",
+        "chest_opened_img": "images/tracker/monsterlairsealed.png",
+        "access_rules": ["greenleaves"],
+        "map_locations": [
+          {
+            "map": "world2",
+            "x": 725,
+            "y": 325
+          }
+        ],
+        "sections": [
+          {
+            "name": "Outside Light Shrine: 2 Souls & 1 Item",
+            "clear_as_group": false,
+            "item_count": 3
+          },
+          {
+            "name": "Light Shrine 1st Floor",
+            "item_count": 1
+          },
+          {
+            "name": "Light Shrine Basement",
+            "clear_as_group": false,
+            "access_rules": ["[soullight]"],
+            "item_count": 3
+          },
+          {
+            "name": "Light Shrine 1st Floor (Spirit Lair)",
+            "access_rules": ["$canDefeatSpiritMonsters"],
+            "item_count": 1
+          },
+          {
+            "name": "Light Shrine Basement (Spirit Lair)",
+            "access_rules": [
+              "$canDefeatSpiritMonsters,[soullight]"
+            ],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  }
+]

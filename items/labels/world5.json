@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Cat 1 in Main Room",
+    "type": "toggle",
+    "img": "images/labels/world5/cat1.png",
+    "codes": "w5cat1"
+  },
+  {
+    "name": "Cat 2 in Main Room",
+    "type": "toggle",
+    "img": "images/labels/world5/cat2.png",
+    "codes": "w5cat2"
+  },
+  {
+    "name":  "Door to rest of the Lab",
+    "type": "toggle",
+    "img": "images/labels/world5/doorentry.png",
+    "codes": "w5doorentry"
+  },
+  {
+    "name": "Door to Model Towns",
+    "type": "toggle",
+    "img": "images/labels/world5/doormodel.png",
+    "codes": "w5doormodel"
+  },
+  {
+    "name": "Door containing Soul of Detection",
+    "type": "toggle",
+    "img": "images/labels/world5/doorsoul.png",
+    "codes": "w5doorsoul"
+  },
+  {
+    "name": "Door to Southwest Drawer",
+    "type": "toggle",
+    "img": "images/labels/world5/doorsouthwest.png",
+    "codes": "w5doorsouthwest"
+  },
+  {
+    "name": "Chest of Drawers in 1st floor",
+    "type": "toggle",
+    "img": "images/labels/world5/drawers1st.png",
+    "codes": "w5drawers1st"
+  },
+  {
+    "name": "Chest of Drawers in Attic",
+    "type": "toggle",
+    "img": "images/labels/world5/drawersattic.png",
+    "codes": "w5drawersattic"
+  },
+  {
+    "name": "Marie the Doll",
+    "type": "toggle",
+    "img": "images/labels/world5/marie.png",
+    "codes": "w5marie"
+  },
+  {
+    "name": "Model of Town 1",
+    "type": "toggle",
+    "img": "images/labels/world5/model1.png",
+    "codes": "w5model1"
+  },
+  {
+    "name": "Model of Town 2",
+    "type": "toggle",
+    "img": "images/labels/world5/model2.png",
+    "codes": "w5model2"
+  },
+  {
+    "name": "Mouse Inside the Hole",
+    "type": "toggle",
+    "img": "images/labels/world5/mouseinside.png",
+    "codes": "w5mouseinside"
+  },
+  {
+    "name": "Mouse Outside the Hole",
+    "type": "toggle",
+    "img": "images/labels/world5/mouseoutside.png",
+    "codes": "w5mouseoutside"
+  },
+  {
+    "name": "Plant through Mouse Hole",
+    "type": "toggle",
+    "img": "images/labels/world5/plantmice.png",
+    "codes": "w5plantmice"
+  },
+  {
+    "name": "Plant by Models of Town",
+    "type": "toggle",
+    "img": "images/labels/world5/plantmodel.png",
+    "codes": "w5plantmodel"
+  },
+  {
+    "name": "Sleepy Cat by Models of Town",
+    "type": "toggle",
+    "img": "images/labels/world5/sleepycat.png",
+    "codes": "w5sleepycat"
+  },
+  {
+    "name": "Steps to 2nd Floor",
+    "type": "toggle",
+    "img": "images/labels/world5/steps2nd.png",
+    "codes": "w5steps2nd"
+  },
+  {
+    "name": "Steps to Attic",
+    "type": "toggle",
+    "img": "images/labels/world5/stepsattic.png",
+    "codes": "w5stepsattic"
+  },
+  {
+    "name": "Steps to Basement / Power Plant",
+    "type": "toggle",
+    "img": "images/labels/world5/stepsbasement.png",
+    "codes": "w5stepsbasement"
+  }
+]

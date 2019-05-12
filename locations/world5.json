@@ -1,0 +1,278 @@
+[
+  {
+    "name": "Dr. Leo's Lab",
+    "chest_unopened_img": "images/tracker/chestclosed.png",
+    "chest_opened_img": "images/tracker/chestopen.png",
+    "color": "#DA70D6",
+    "access_rules": ["$canEnterArea5"],
+    "children": [
+      {
+        "name": "Factory",
+        "map_locations": [
+          {
+            "map": "world5",
+            "x": 240,
+            "y": 800
+          }
+        ],
+        "chest_unopened_img": "images/tracker/monsterlairopen.png",
+        "chest_opened_img": "images/tracker/monsterlairsealed.png",
+        "access_rules": ["[$canDefeatMetalMonsters]"],
+        "sections": [
+          {
+            "name": "1st Level",
+            "clear_as_group": false,
+            "item_count": 8
+          },
+          {
+            "name": "2nd Level (5 Souls & 1 Item)",
+            "access_rules": ["[icearmor]"],
+            "clear_as_group": false,
+            "item_count": 6
+          }
+        ]
+      },
+      {
+        "name": "Power Plant",
+        "map_locations": [
+          {
+            "map": "world5",
+            "x": 300,
+            "y": 925
+          }
+        ],
+        "access_rules": ["w5stepsbasement,[$canDefeatMetalMonsters]"],
+        "sections": [
+          {
+            "name": "Before Fire Section",
+            "item_count": 1
+          },
+          {
+            "name": "After Fire Section (1 Soul & 1 Item)",
+            "access_rules": ["[icearmor]"],
+            "chest_unopened_img": "images/tracker/monsterlairopen.png",
+            "chest_opened_img": "images/tracker/monsterlairsealed.png",
+            "clear_as_group": false,
+            "item_count": 2
+          },
+          {
+            "name": "Boss",
+            "chest_unopened_img": "images/tracker/monsterlairopen.png",
+            "chest_opened_img": "images/tracker/monsterlairsealed.png",
+            "access_rules": ["$canDefeatMetalMonsters,[icearmor]"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Main Lab",
+        "access_rules": ["w5doorentry"],
+        "children": [
+          {
+            "name": "Free Chest",
+            "map_locations": [
+              {
+                "map": "world5",
+                "x": 390,
+                "y": 700
+              }
+            ],
+            "sections": [
+              {
+                "name": "No strings attached.",
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Cat Guards",
+            "access_rules": ["w5cat1,w5cat2,w5mouseoutside,actleaves"],
+            "children": [
+              {
+                "name": "Mouse's Reward",
+                "map_locations": [
+                  {
+                    "map": "world5",
+                    "x": 40,
+                    "y": 540
+                  }
+                ],
+                "access_rules": ["w5mouseinside"],
+                "sections": [
+                  {
+                    "name": "Mouse in Hallway",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Dancing Plant",
+                "access_rules": ["w5plantmice"],
+                "map_locations": [
+                  {
+                    "map": "world5",
+                    "x": 420,
+                    "y": 650
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Dance, plant, dance!",
+                    "item_count": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Chest of Drawers",
+            "map_locations": [
+              {
+                "map": "world5",
+                "x": 25,
+                "y": 780
+              }
+            ],
+            "access_rules": ["doorkey,w5doorsouthwest,w5drawers1st"],
+            "sections": [
+              {
+                "name": "Open the Drawers",
+                "item_count": 1
+              },
+              {
+                "name": "Push the Drawers",
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "2nd Floor",
+        "access_rules": ["w5steps2nd"],
+        "children": [
+          {
+            "name": "Great Door (Soul of Detection)",
+            "access_rules": ["w5doorsoul"],
+            "map_locations": [
+              {
+                "map": "world5",
+                "x": 315,
+                "y": 405
+              }
+            ],
+            "sections": [
+              {
+                "name": "Enemies, reveal yourselves!",
+                "hosted_item": "souldetection"
+              }
+            ]
+          },
+          {
+            "name": "Town Model Room",
+            "access_rules": ["w5doormodel"],
+            "children": [
+              {
+                "name": "Sleepy Cat",
+                "map_locations": [
+                  {
+                    "map": "world5",
+                    "x": 145,
+                    "y": 140
+                  }
+                ],
+                "access_rules": ["w5sleepycat,dreamrod"],
+                "sections": [
+                  {
+                    "name": "Where's the fish...ZZZZZZ",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Dancing Plant (2nd Floor)",
+                "map_locations": [
+                  {
+                    "map": "world5",
+                    "x": 190,
+                    "y": 65
+                  }
+                ],
+                "access_rules": ["w5plantmodel"],
+                "sections": [
+                  {
+                    "name": "Dance, plant, dance!",
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Attic",
+                "access_rules": ["w5stepsattic"],
+                "map_locations": [
+                  {
+                    "map": "world5",
+                    "x": 35,
+                    "y": 100
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Chest of Drawers",
+                    "access_rules": ["w5drawersattic"],
+                    "item_count": 1
+                  },
+                  {
+                    "name": "Marie the Doll",
+                    "access_rules": ["w5marie"],
+                    "hosted_item": "marie"
+                  }
+                ]
+              },
+              {
+                "name": "Left Model Town",
+                "map_locations": [
+                  {
+                    "map": "world5",
+                    "x": 35,
+                    "y": 250
+                  }
+                ],
+                "access_rules": ["w5model1,[souldetection]"],
+                "chest_unopened_img": "images/tracker/monsterlairopen.png",
+                "chest_opened_img": "images/tracker/monsterlairsealed.png",
+                "sections": [
+                  {
+                    "name": "Go to town. (9 Souls & 4 Items)",
+                    "clear_as_group": false,
+                    "item_count": 13
+                  }
+                ]
+              },
+              {
+                "name": "Right Model Town",
+                "map_locations": [
+                  {
+                    "map": "world5",
+                    "x": 90,
+                    "y": 250
+                  }
+                ],
+                "access_rules": ["w5model2,[souldetection]"],
+                "chest_unopened_img": "images/tracker/monsterlairopen.png",
+                "chest_opened_img": "images/tracker/monsterlairsealed.png",
+                "sections": [
+                  {
+                    "name": "Go to town. (3 Souls & 2 Items)",
+                    "clear_as_group": false,
+                    "item_count": 5
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

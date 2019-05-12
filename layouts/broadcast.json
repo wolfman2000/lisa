@@ -1,0 +1,82 @@
+{
+  "tracker_broadcast": {
+    "type": "array",
+    "dropshadow": true,
+    "margin": "10",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "itemgrid",
+            "h_alignment": "center",
+            "item_margin": "1,2",
+            "rows": [
+              [
+                "zantetsu",
+                "spirit",
+                "soulblade",
+                "icearmor",
+                "bubblearmor",
+                "soularmor",
+                "phoenix",
+                "dreamrod"
+              ],
+              [
+                "brownstone",
+                "greenstone",
+                "bluestone",
+                "silverstone",
+                "purplestone",
+                "blackstone",
+                "pass",
+                "redhotball"
+              ],
+              [
+                "leobrush",
+                "seeds",
+                "greenleaves",
+                "moleribbon",
+                "thunderring",
+                "mermaidtears",
+                "bigpearl",
+                "redhotmirror"
+              ],
+              [
+                "mushroomshoes",
+                "doorkey",
+                "actleaves",
+                "harpstring",
+                "platinumcard",
+                "vipcard",
+                "mobilekey",
+                "redhotrod"
+              ],
+              [
+                "emblema",
+                "emblemb",
+                "emblemc",
+                "emblemd",
+                "embleme",
+                "emblemf",
+                "emblemg",
+                "emblemh"
+              ],
+              [
+                "",
+                "chief",
+                "guardian",
+                "mermaid",
+                "nome",
+                "marie",
+                "king",
+                ""
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

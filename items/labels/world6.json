@@ -1,0 +1,80 @@
+[
+  {
+    "name": "King Magridd",
+    "type": "toggle",
+    "img": "images/labels/world6/king.png",
+    "codes": "w6king"
+  },
+  {
+    "name": "Dr. Leo",
+    "type": "toggle",
+    "img": "images/labels/world6/leo.png",
+    "codes": "w6leo"
+  },
+  {
+    "name": "Maid",
+    "type": "toggle",
+    "img": "images/labels/world6/maid.png",
+    "codes": "w6maid"
+  },
+  {
+    "name": "Queen Magridd",
+    "type": "toggle",
+    "img": "images/labels/world6/queen.png",
+    "codes": "w6queen"
+  },
+  {
+    "name": "Singer",
+    "type": "toggle",
+    "img": "images/labels/world6/singer.png",
+    "codes": "w6singer"
+  },
+  {
+    "name": "Soldier (Soul of Reality)",
+    "type": "toggle",
+    "img": "images/labels/world6/soldiersoul.png",
+    "codes": "w6soldiersoul"
+  },
+  {
+    "name": "Soldier Asleep at the West",
+    "type": "toggle",
+    "img": "images/labels/world6/sleepysoldier.png",
+    "codes": "w6sleepysoldier"
+  },
+  {
+    "name": "Soldier Revealing the Castle",
+    "type": "toggle",
+    "img": "images/labels/world6/soldiercastle.png",
+    "codes": "w6soldiercastle"
+  },
+  {
+    "name": "Soldier in Concert Hall",
+    "type": "toggle",
+    "img": "images/labels/world6/soldierconcert.png",
+    "codes": "w6soldierconcert"
+  },
+  {
+    "name": "Soldier guarding Dr. Leo (Dok)",
+    "type": "toggle",
+    "img": "images/labels/world6/soldierdok.png",
+    "codes": "w6soldierdok"
+  },
+  {
+    "name": "Soldier guarding Left Tower",
+    "type": "toggle",
+    "img": "images/labels/world6/soldierleft.png",
+    "codes": "w6soldierleft"
+  },
+  {
+    "name": "Soldier guarding Dr. Leo (Oct)",
+    "type": "toggle",
+    "img": "images/labels/world6/soldieroct.png",
+    "codes": "w6soldieroct"
+  },
+  {
+    "name": "Soldier guarding Right Tower",
+    "type": "toggle",
+    "img": "images/labels/world6/soldierright.png",
+    "codes": "w6soldierright"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "name": "Soul Blazer Rando Tracker",
+  "game_name": "Soul Blazer Randomizer",
+  "game_variant": "yes",
+  "platform": "snes",
+  "package_version": "1.0.0.0",
+  "package_uid": "soulblazer-wolfman",
+  "author": "Wolfman2000",
+  "variants": {
+    "items_minimal-map_simple": {
+      "display_name": "Item & Map Tracker"
+    },
+    "items_minimal-map_none": {
+      "display_name": "Item Only Tracker"
+    }
+  }
+}

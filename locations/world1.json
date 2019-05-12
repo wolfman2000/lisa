@@ -1,0 +1,246 @@
+[
+  {
+    "name": "Grass Valley",
+    "color": "#A52A2A",
+    "chest_unopened_img": "images/tracker/chestclosed.png",
+    "chest_opened_img": "images/tracker/chestopen.png",
+    "children": [
+      {
+        "name": "West Grass Valley",
+        "children": [
+          {
+            "name": "Underground Castle",
+            "map_locations": [
+              {
+                "map": "world1",
+                "x": 310,
+                "y": 940
+              }
+            ],
+            "chest_unopened_img": "images/tracker/monsterlairopen.png",
+            "chest_opened_img": "images/tracker/monsterlairsealed.png",
+            "sections": [
+              {
+                "name": "Pre-Elevator Souls (6) & Items (4)",
+                "clear_as_group": false,
+                "item_count": 10
+              },
+              {
+                "name": "Post-Elevator Souls",
+                "clear_as_group": false,
+                "access_rules": ["w1bridgeguard,w1watermillkeeper"],
+                "item_count": 10
+              },
+              {
+                "name": "Lisa's Dream Soul and Item",
+                "clear_as_group": false,
+                "access_rules": ["w1bridgeguard,w1watermillkeeper,w1lisa,dreamrod"],
+                "item_count": 2
+              }
+            ]
+          },
+          {
+            "name": "Chief's House",
+            "map_locations": [
+              {
+                "map": "world1",
+                "x": 80,
+                "y": 425
+              }
+            ],
+            "sections": [
+              {
+                "name": "Chief",
+                "access_rules": [
+                  "w1villagechief,w1villagechiefhouse"
+                ],
+                "hosted_item": "chief"
+              }
+            ]
+          },
+          {
+            "name": "Tool Shop",
+            "map_locations": [
+              {
+                "map": "world1",
+                "x": 355,
+                "y": 400
+              }
+            ],
+            "access_rules": ["w1toolshopowner"],
+            "sections": [
+              {
+                "name": "Tool Shop Owner",
+                "access_rules": [],
+                "item_count": 1
+              },
+              {
+                "name": "Tool Shop Owner's Son",
+                "access_rules": [
+                  "w1teddy"
+                ],
+                "item_count": 1
+              }
+            ]
+          },
+          {
+            "name": "Right Goat's Pen",
+            "map_locations": [
+              {
+                "map": "world1",
+                "x": 835,
+                "y": 695
+              }
+            ],
+            "sections": [
+              {
+                "name": "Southeast Corner",
+                "access_rules": [
+                  "w1goatpen"
+                ],
+                "item_count": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "East Grass Valley",
+        "access_rules": ["w1bridgeguard"],
+        "children": [
+          {
+            "name": "Chest Cave",
+            "map_locations": [
+              {
+                "map": "world1",
+                "x": 575,
+                "y": 940
+              }
+            ],
+            "sections": [
+              {
+                "name": "Chest Cave (& Crystal)",
+                "access_rules": [
+                  "w1ivytwochests"
+                ],
+                "item_count": 3
+              }
+            ]
+          },
+          {
+            "name": "Southeast Grass Valley",
+            "access_rules": ["w1ivysoutheast"],
+            "children": [
+              {
+                "name": "Sleepy Tulip",
+                "map_locations": [
+                  {
+                    "map": "world1",
+                    "x": 720,
+                    "y": 870
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Push Left",
+                    "access_rules": [
+                      "w1sleepytulip"
+                    ],
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Cliff Overlooking Tulip",
+                "map_locations": [
+                  {
+                    "map": "world1",
+                    "x": 740,
+                    "y": 795
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Left-most cliff",
+                    "access_rules": [
+                      "w1ivyemblema"
+                    ],
+                    "item_count": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Hideout",
+            "access_rules": ["pass"],
+            "children": [
+              {
+                "name": "Hideout Tile",
+                "map_locations": [
+                  {
+                    "map": "world1",
+                    "x": 650,
+                    "y": 180
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Lower-right most outlook",
+                    "access_rules": [],
+                    "item_count": 1
+                  }
+                ]
+              },
+              {
+                "name": "Hideout Crystal",
+                "map_locations": [
+                  {
+                    "map": "world1",
+                    "x": 650,
+                    "y": 80
+                  }
+                ],
+                "sections": [
+                  {
+                    "name": "Nice view at least...",
+                    "access_rules": [
+                      "w1ivyhideoutcrystal"
+                    ],
+                    "item_count": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Leo's Painting",
+            "access_rules": ["w1architect,w1leoshouse,leobrush"],
+            "chest_unopened_img": "images/tracker/monsterlairopen.png",
+            "chest_opened_img": "images/tracker/monsterlairsealed.png",
+            "map_locations": [
+              {
+                "map": "world1",
+                "x": 770,
+                "y": 160
+              }
+            ],
+            "sections": [
+              {
+                "name": "Accessible Souls (8)",
+                "clear_as_group": false,
+                "item_count": 8
+              },
+              {
+                "name": "Metal Monster Souls (2) and Item",
+                "clear_as_group": false,
+                "access_rules": ["$canDefeatMetalMonsters"],
+                "item_count": 3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
