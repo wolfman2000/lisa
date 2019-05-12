@@ -180,6 +180,7 @@
                       },
                       {
                         "name": "Durean Lava Protected (2 Souls & 1 Item)",
+                        "access_rules": ["[mermaidtears]"],
                         "clear_as_group": false,
                         "item_count": 3
                       }
