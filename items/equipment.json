@@ -2,43 +2,43 @@
   {
     "name": "Zantetsu Sword",
     "type": "toggle",
-    "img": "images/zantetsusword.png",
+    "img": "images/weapons/zantetsusword.png",
     "codes": "zantetsu"
   },
   {
     "name": "Spirit Sword",
     "type": "toggle",
-    "img": "images/spiritsword.png",
+    "img": "images/weapons/spiritsword.png",
     "codes": "spirit"
   },
   {
     "name": "The Soul Blade",
     "type": "toggle",
-    "img": "images/soulblade.png",
+    "img": "images/weapons/soulblade.png",
     "codes": "soulblade"
   },
   {
     "name": "Ice Armor",
     "type": "toggle",
-    "img": "images/icearmor.png",
+    "img": "images/armor/icearmor.png",
     "codes": "icearmor"
   },
   {
     "name": "Bubble Armor",
     "type": "toggle",
-    "img": "images/bubblearmor.png",
+    "img": "images/armor/bubblearmor.png",
     "codes": "bubblearmor"
   },
   {
     "name": "Soul Armor",
     "type": "toggle",
-    "img": "images/soularmor.png",
+    "img": "images/armor/soularmor.png",
     "codes": "soularmor"
   },
   {
     "name": "Phoenix Magic",
     "type": "toggle",
-    "img": "images/phoenixmagic.png",
+    "img": "images/magic/phoenix.png",
     "codes": "phoenix"
   }
 ]

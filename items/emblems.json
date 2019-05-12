@@ -2,49 +2,49 @@
   {
     "name": "Emblem A",
     "type": "toggle",
-    "img": "images/emblema.png",
+    "img": "images/emblems/emblema.png",
     "codes": "emblema"
   },
   {
     "name": "Emblem B",
     "type": "toggle",
-    "img": "images/emblemb.png",
+    "img": "images/emblems/emblemb.png",
     "codes": "emblemb"
   },
   {
     "name": "Emblem C",
     "type": "toggle",
-    "img": "images/emblemc.png",
+    "img": "images/emblems/emblemc.png",
     "codes": "emblemc"
   },
   {
     "name": "Emblem D",
     "type": "toggle",
-    "img": "images/emblemd.png",
+    "img": "images/emblems/emblemd.png",
     "codes": "emblemd"
   },
   {
     "name": "Emblem E",
     "type": "toggle",
-    "img": "images/embleme.png",
+    "img": "images/emblems/embleme.png",
     "codes": "embleme"
   },
   {
     "name": "Emblem F",
     "type": "toggle",
-    "img": "images/emblemf.png",
+    "img": "images/emblems/emblemf.png",
     "codes": "emblemf"
   },
   {
     "name": "Emblem G",
     "type": "toggle",
-    "img": "images/emblemg.png",
+    "img": "images/emblems/emblemg.png",
     "codes": "emblemg"
   },
   {
     "name": "Emblem H",
     "type": "toggle",
-    "img": "images/emblemh.png",
-    "codes": "emblemH"
+    "img": "images/emblems/emblemh.png",
+    "codes": "emblemh"
   }
 ]

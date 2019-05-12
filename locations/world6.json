@@ -1,8 +1,8 @@
 [
   {
     "name": "Magridd Castle",
-    "chest_unopened_img": "images/chestclosed.png",
-    "chest_opened_img": "images/chestopen.png",
+    "chest_unopened_img": "images/tracker/chestclosed.png",
+    "chest_opened_img": "images/tracker/chestopen.png",
     "color": "#000000",
     "access_rules": ["marie"],
     "children": [
@@ -139,8 +139,8 @@
       {
         "name": "Lairs",
         "access_rules": ["[$canDefeatSpiritMonsters]"],
-        "chest_unopened_img": "images/monsterlairopen.png",
-        "chest_opened_img": "images/monsterlairsealed.png",
+        "chest_unopened_img": "images/tracker/monsterlairopen.png",
+        "chest_opened_img": "images/tracker/monsterlairsealed.png",
         "children": [
           {
             "name": "Magridd Dungeon",
@@ -166,8 +166,8 @@
                 "name": "2nd Level Secret Items",
                 "clear_as_group": false,
                 "access_rules": ["[soulreality]"],
-                "chest_unopened_img": "images/chestclosed.png",
-                "chest_opened_img": "images/chestopen.png",
+                "chest_unopened_img": "images/tracker/chestclosed.png",
+                "chest_opened_img": "images/tracker/chestopen.png",
                 "item_count": 3
               },
               {
@@ -178,8 +178,8 @@
               {
                 "name": "3rd Level Secret Item",
                 "access_rules": ["[soulreality]"],
-                "chest_unopened_img": "images/chestclosed.png",
-                "chest_opened_img": "images/chestopen.png",
+                "chest_unopened_img": "images/tracker/chestclosed.png",
+                "chest_opened_img": "images/tracker/chestopen.png",
                 "item_count": 1
               }
             ]
@@ -240,8 +240,8 @@
               },
               {
                 "name": "Dr. Leo",
-                "chest_unopened_img": "images/monsterlairopen.png",
-                "chest_opened_img": "images/monsterlairsealed.png",
+                "chest_unopened_img": "images/tracker/monsterlairopen.png",
+                "chest_opened_img": "images/tracker/monsterlairsealed.png",
                 "access_rules": ["w6leo,w6soldierdok,w6soldieroct"],
                 "hosted_item": "ripleo"
               },

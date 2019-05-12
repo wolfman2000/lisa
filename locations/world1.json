@@ -2,8 +2,8 @@
   {
     "name": "Grass Valley",
     "color": "#A52A2A",
-    "chest_unopened_img": "images/chestclosed.png",
-    "chest_opened_img": "images/chestopen.png",
+    "chest_unopened_img": "images/tracker/chestclosed.png",
+    "chest_opened_img": "images/tracker/chestopen.png",
     "children": [
       {
         "name": "West Grass Valley",
@@ -17,8 +17,8 @@
                 "y": 940
               }
             ],
-            "chest_unopened_img": "images/monsterlairopen.png",
-            "chest_opened_img": "images/monsterlairsealed.png",
+            "chest_unopened_img": "images/tracker/monsterlairopen.png",
+            "chest_opened_img": "images/tracker/monsterlairsealed.png",
             "sections": [
               {
                 "name": "Pre-Elevator Souls (6) & Items (4)",
@@ -216,8 +216,8 @@
           {
             "name": "Leo's Painting",
             "access_rules": ["w1architect,w1leoshouse,leobrush"],
-            "chest_unopened_img": "images/monsterlairopen.png",
-            "chest_opened_img": "images/monsterlairsealed.png",
+            "chest_unopened_img": "images/tracker/monsterlairopen.png",
+            "chest_opened_img": "images/tracker/monsterlairsealed.png",
             "map_locations": [
               {
                 "map": "world1",

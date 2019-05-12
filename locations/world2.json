@@ -2,8 +2,8 @@
   {
     "name": "Woods of Greenwood",
     "color": "#00AA00",
-    "chest_unopened_img": "images/chestclosed.png",
-    "chest_opened_img": "images/chestopen.png",
+    "chest_unopened_img": "images/tracker/chestclosed.png",
+    "chest_opened_img": "images/tracker/chestopen.png",
     "access_rules": ["$canEnterArea2"],
     "children": [
       {
@@ -200,8 +200,8 @@
       },
       {
         "name": "Water Shrine",
-        "chest_unopened_img": "images/monsterlairopen.png",
-        "chest_opened_img": "images/monsterlairsealed.png",
+        "chest_unopened_img": "images/tracker/monsterlairopen.png",
+        "chest_opened_img": "images/tracker/monsterlairsealed.png",
         "map_locations": [
           {
             "map": "world2",
@@ -224,8 +224,8 @@
       },
       {
         "name": "Fire Shrine",
-        "chest_unopened_img": "images/monsterlairopen.png",
-        "chest_opened_img": "images/monsterlairsealed.png",
+        "chest_unopened_img": "images/tracker/monsterlairopen.png",
+        "chest_opened_img": "images/tracker/monsterlairsealed.png",
         "map_locations": [
           {
             "map": "world2",
@@ -253,8 +253,8 @@
       },
       {
         "name": "Light Shrine",
-        "chest_unopened_img": "images/monsterlairopen.png",
-        "chest_opened_img": "images/monsterlairsealed.png",
+        "chest_unopened_img": "images/tracker/monsterlairopen.png",
+        "chest_opened_img": "images/tracker/monsterlairsealed.png",
         "access_rules": ["greenleaves"],
         "map_locations": [
           {

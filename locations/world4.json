@@ -1,15 +1,15 @@
 [
   {
     "name": "Mountain of Lost Souls",
-    "chest_unopened_img": "images/chestclosed.png",
-    "chest_opened_img": "images/chestopen.png",
+    "chest_unopened_img": "images/tracker/chestclosed.png",
+    "chest_opened_img": "images/tracker/chestopen.png",
     "access_rules": ["$canEnterArea4"],
     "color": "#C0C0C0",
     "children": [
       {
         "name": "Laynole Mountain (without Mushroom Shoes)",
-        "chest_unopened_img": "images/monsterlairopen.png",
-        "chest_opened_img": "images/monsterlairsealed.png",
+        "chest_unopened_img": "images/tracker/monsterlairopen.png",
+        "chest_opened_img": "images/tracker/monsterlairsealed.png",
         "map_locations": [
           {
             "map": "world4",
@@ -37,8 +37,8 @@
       },
       {
         "name": "Laynole Mountain (with Mushroom Shoes)",
-        "chest_unopened_img": "images/monsterlairopen.png",
-        "chest_opened_img": "images/monsterlairsealed.png",
+        "chest_unopened_img": "images/tracker/monsterlairopen.png",
+        "chest_opened_img": "images/tracker/monsterlairsealed.png",
         "access_rules": ["mushroomshoes"],
         "map_locations": [
           {
@@ -106,8 +106,8 @@
           {
             "name": "Lune",
             "access_rules": ["w4grandpalune"],
-            "chest_unopened_img": "images/monsterlairopen.png",
-            "chest_opened_img": "images/monsterlairsealed.png",
+            "chest_unopened_img": "images/tracker/monsterlairopen.png",
+            "chest_opened_img": "images/tracker/monsterlairsealed.png",
             "map_locations": [
               {
                 "map": "world4",
@@ -118,8 +118,8 @@
             "sections": [
               {
                 "name": "Last of Invisible Bridges",
-                "chest_unopened_img": "images/monsterlairopen.png",
-                "chest_opened_img": "images/monsterlairsealed.png",
+                "chest_unopened_img": "images/tracker/monsterlairopen.png",
+                "chest_opened_img": "images/tracker/monsterlairsealed.png",
                 "clear_as_group": false,
                 "item_count": 2
               },

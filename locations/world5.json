@@ -1,8 +1,8 @@
 [
   {
     "name": "Dr. Leo's Lab",
-    "chest_unopened_img": "images/chestclosed.png",
-    "chest_opened_img": "images/chestopen.png",
+    "chest_unopened_img": "images/tracker/chestclosed.png",
+    "chest_opened_img": "images/tracker/chestopen.png",
     "color": "#DA70D6",
     "access_rules": ["$canEnterArea5"],
     "children": [
@@ -15,8 +15,8 @@
             "y": 800
           }
         ],
-        "chest_unopened_img": "images/monsterlairopen.png",
-        "chest_opened_img": "images/monsterlairsealed.png",
+        "chest_unopened_img": "images/tracker/monsterlairopen.png",
+        "chest_opened_img": "images/tracker/monsterlairsealed.png",
         "access_rules": ["[$canDefeatMetalMonsters]"],
         "sections": [
           {
@@ -50,15 +50,15 @@
           {
             "name": "After Fire Section (1 Soul & 1 Item)",
             "access_rules": ["[icearmor]"],
-            "chest_unopened_img": "images/monsterlairopen.png",
-            "chest_opened_img": "images/monsterlairsealed.png",
+            "chest_unopened_img": "images/tracker/monsterlairopen.png",
+            "chest_opened_img": "images/tracker/monsterlairsealed.png",
             "clear_as_group": false,
             "item_count": 2
           },
           {
             "name": "Boss",
-            "chest_unopened_img": "images/monsterlairopen.png",
-            "chest_opened_img": "images/monsterlairsealed.png",
+            "chest_unopened_img": "images/tracker/monsterlairopen.png",
+            "chest_opened_img": "images/tracker/monsterlairsealed.png",
             "access_rules": ["$canDefeatMetalMonsters,[icearmor]"],
             "item_count": 1
           }
@@ -239,8 +239,8 @@
                   }
                 ],
                 "access_rules": ["w5model1,[souldetection]"],
-                "chest_unopened_img": "images/monsterlairopen.png",
-                "chest_opened_img": "images/monsterlairsealed.png",
+                "chest_unopened_img": "images/tracker/monsterlairopen.png",
+                "chest_opened_img": "images/tracker/monsterlairsealed.png",
                 "sections": [
                   {
                     "name": "Go to town. (9 Souls & 4 Items)",
@@ -259,8 +259,8 @@
                   }
                 ],
                 "access_rules": ["w5model2,[souldetection]"],
-                "chest_unopened_img": "images/monsterlairopen.png",
-                "chest_opened_img": "images/monsterlairsealed.png",
+                "chest_unopened_img": "images/tracker/monsterlairopen.png",
+                "chest_opened_img": "images/tracker/monsterlairsealed.png",
                 "sections": [
                   {
                     "name": "Go to town. (3 Souls & 2 Items)",

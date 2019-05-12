@@ -2,8 +2,8 @@
   {
     "name": "Seabed Sanctuary",
     "color": "#0000CC",
-    "chest_unopened_img": "images/chestclosed.png",
-    "chest_opened_img": "images/chestopen.png",
+    "chest_unopened_img": "images/tracker/chestclosed.png",
+    "chest_opened_img": "images/tracker/chestopen.png",
     "access_rules": ["$canEnterArea3"],
     "children": [
       {
@@ -80,8 +80,8 @@
           {
             "name": "Underwater...",
             "access_rules": ["[bubblearmor]"],
-            "chest_unopened_img": "images/monsterlairopen.png",
-            "chest_opened_img": "images/monsterlairsealed.png",
+            "chest_unopened_img": "images/tracker/monsterlairopen.png",
+            "chest_opened_img": "images/tracker/monsterlairsealed.png",
             "children": [
               {
                 "name": "Back of Southerta",
@@ -300,8 +300,8 @@
       },
       {
         "name": "Front of Southerta",
-        "chest_unopened_img": "images/monsterlairopen.png",
-        "chest_opened_img": "images/monsterlairsealed.png",
+        "chest_unopened_img": "images/tracker/monsterlairopen.png",
+        "chest_opened_img": "images/tracker/monsterlairsealed.png",
         "map_locations": [
           {
             "map": "world3",
