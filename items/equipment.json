@@ -1,5 +1,11 @@
 [
   {
+    "name": "Lucky Blade",
+    "type": "toggle",
+    "img": "images/weapons/luckyblade.png",
+    "codes": "luckyblade"
+  },
+  {
     "name": "Zantetsu Sword",
     "type": "toggle",
     "img": "images/weapons/zantetsusword.png",
