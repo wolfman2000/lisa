@@ -105,7 +105,7 @@
         "children": [
           {
             "name": "Lune",
-            "access_rules": ["w4grandpalune"],
+            "access_rules": ["w4grandpalune,luckyblade"],
             "chest_unopened_img": "images/tracker/monsterlairopen.png",
             "chest_opened_img": "images/tracker/monsterlairsealed.png",
             "map_locations": [
