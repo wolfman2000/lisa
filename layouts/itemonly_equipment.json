@@ -1,0 +1,108 @@
+{
+  "shared_item_grid": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "1,2",
+    "rows": [
+      [
+        "lifesword",
+        "psychosword",
+        "criticalsword",
+        "luckyblade",
+        "zantetsu",
+        "spirit",
+        "recoverysword",
+        "soulblade"
+      ],
+      [
+        "ironarmor",
+        "icearmor",
+        "bubblearmor",
+        "magicarmor",
+        "mysticarmor",
+        "lightarmor",
+        "elementalmail",
+        "soularmor"
+      ],
+      [
+        "flameball",
+        "lightarrow",
+        "magicflare",
+        "rotator",
+        "sparkbomb",
+        "flamepillar",
+        "tornado",
+        "phoenix"
+      ],
+      [
+        "brownstone",
+        "greenstone",
+        "bluestone",
+        "silverstone",
+        "purplestone",
+        "blackstone",
+        "pass",
+        "redhotball"
+      ],
+      [
+        "leobrush",
+        "seeds",
+        "greenleaves",
+        "moleribbon",
+        "thunderring",
+        "mermaidtears",
+        "bigpearl",
+        "redhotmirror"
+      ],
+      [
+        "mushroomshoes",
+        "doorkey",
+        "actleaves",
+        "harpstring",
+        "platinumcard",
+        "vipcard",
+        "mobilekey",
+        "redhotrod"
+      ],
+      [
+        "medicalherb",
+        "chief",
+        "guardian",
+        "mermaid",
+        "nome",
+        "marie",
+        "king",
+        "dreamrod"
+      ],
+      [
+        "emblema",
+        "emblemb",
+        "emblemc",
+        "emblemd",
+        "embleme",
+        "emblemf",
+        "emblemg",
+        "emblemh"
+      ]
+    ]
+  },
+  "tracker_capture_item": {
+    "type": "container",
+    "content": {
+      "type": "layout",
+      "key": "shared_item_grid"
+    }
+  },
+  "tracker_default": {
+    "type": "container",
+    "background": "#212121",
+    "width": 300,
+    "height": 320,
+    "content": {
+      "dropshadow": true,
+      "margin": 5,
+      "type": "layout",
+      "key": "shared_item_grid"
+    }
+  }
+}
