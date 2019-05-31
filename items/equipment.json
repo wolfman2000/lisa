@@ -1,5 +1,23 @@
 [
   {
+    "name": "Sword of Life",
+    "type": "toggle",
+    "img": "images/weapons/lifesword.png",
+    "codes": "lifesword"
+  },
+  {
+    "name": "Psycho Sword",
+    "type": "toggle",
+    "img": "images/weapons/psychosword.png",
+    "codes": "psychosword"
+  },
+  {
+    "name": "Critical Sword",
+    "type": "toggle",
+    "img": "images/weapons/criticalsword.png",
+    "codes": "criticalsword"
+  },
+  {
     "name": "Lucky Blade",
     "type": "toggle",
     "img": "images/weapons/luckyblade.png",
@@ -18,10 +36,22 @@
     "codes": "spirit"
   },
   {
+    "name": "Recovery Sword",
+    "type": "toggle",
+    "img": "images/weapons/recoverysword.png",
+    "codes": "recoverysword"
+  },
+  {
     "name": "The Soul Blade",
     "type": "toggle",
     "img": "images/weapons/soulblade.png",
     "codes": "soulblade"
+  },
+  {
+    "name": "Iron Armor",
+    "type": "toggle",
+    "img": "images/armor/ironarmor.png",
+    "codes": "ironarmor"
   },
   {
     "name": "Ice Armor",
@@ -36,10 +66,76 @@
     "codes": "bubblearmor"
   },
   {
+    "name": "Magic Armor",
+    "type": "toggle",
+    "img": "images/armor/magicarmor.png",
+    "codes": "magicarmor"
+  },
+  {
+    "name": "Mystic Armor",
+    "type": "toggle",
+    "img": "images/armor/mysticarmor.png",
+    "codes": "mysticarmor"
+  },
+  {
+    "name": "Light Armor",
+    "type": "toggle",
+    "img": "images/armor/lightarmor.png",
+    "codes": "lightarmor"
+  },
+  {
+    "name": "Elemental Mail",
+    "type": "toggle",
+    "img": "images/armor/elementalmail.png",
+    "codes": "elementalmail"
+  },
+  {
     "name": "Soul Armor",
     "type": "toggle",
     "img": "images/armor/soularmor.png",
     "codes": "soularmor"
+  },
+  {
+    "name": "Flame Ball",
+    "type": "toggle",
+    "img": "images/magic/flameball.png",
+    "codes": "flameball"
+  },
+  {
+    "name": "Light Arrow",
+    "type": "toggle",
+    "img": "images/magic/lightarrow.png",
+    "codes": "lightarrow"
+  },
+  {
+    "name": "Magic Flare",
+    "type": "toggle",
+    "img": "images/magic/magicflair.png",
+    "codes": "magicflare"
+  },
+  {
+    "name": "Rotator",
+    "type": "toggle",
+    "img": "images/magic/rotator.png",
+    "codes": "rotator"
+  },
+  {
+    "name": "Spark Bomb",
+    "type": "toggle",
+    "img": "images/magic/sparkbomb.png",
+    "codes": "sparkbomb"
+  },
+  {
+    "name": "Flame Pillar",
+    "type": "toggle",
+    "img": "images/magic/flamepillar.png",
+    "codes": "flamepillar"
+  },
+  {
+    "name": "Tornado",
+    "type": "toggle",
+    "img": "images/magic/tornado.png",
+    "codes": "tornado"
   },
   {
     "name": "Phoenix Magic",

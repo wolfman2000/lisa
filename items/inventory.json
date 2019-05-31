@@ -118,5 +118,41 @@
     "type": "toggle",
     "img": "images/inventory/redhotrod.png",
     "codes": "redhotrod"
+  },
+  {
+    "name": "Magic Bell",
+    "type": "toggle",
+    "img": "images/inventory/magicbell.png",
+    "codes": "magicbell"
+  },
+  {
+    "name": "Medical Herb",
+    "type": "toggle",
+    "img": "images/inventory/medicalherb.png",
+    "codes": "medicalherb"
+  },
+  {
+    "name": "Power Bracelet",
+    "type": "toggle",
+    "img": "images/inventory/powerbracelet.png",
+    "codes": "powerbracelet"
+  },
+  {
+    "name": "Shield Bracelet",
+    "type": "toggle",
+    "img": "images/inventory/shieldbracelet.png",
+    "codes": "shieldbracelet"
+  },
+  {
+    "name": "Super Bracelet",
+    "type": "toggle",
+    "img": "images/inventory/superbracelet.png",
+    "codes": "superbracelet"
+  },
+  {
+    "name": "Strange Bottle",
+    "type": "toggle",
+    "img": "images/inventory/strangebottle.png",
+    "codes": "strangebottle"
   }
 ]

@@ -8,10 +8,16 @@
   "author": "Wolfman2000",
   "variants": {
     "items_minimal-map_simple": {
-      "display_name": "Item & Map Tracker"
+      "display_name": "Item (Minimal) & Map Tracker"
+    },
+    "items_equipment-map_simple": {
+      "display_name": "Item (Equipment) & Map Tracker"
     },
     "items_minimal-map_none": {
-      "display_name": "Item Only Tracker"
+      "display_name": "Item (Minimal) Only Tracker"
+    },
+    "items_equipment-map_none": {
+      "display_name": "Item (Equipment) Only Tracker"
     }
   }
 }
