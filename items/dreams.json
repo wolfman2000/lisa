@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Lisa's Dream",
+    "type": "toggle",
+    "img": "images/tracker/soullight.png",
+    "codes": "dreamlisa"
+  },
+  {
+    "name": "Sleepy Stump's Dream",
+    "type": "toggle",
+    "img": "images/tracker/soullight.png",
+    "codes": "dreamstump"
+  },
+  {
+    "name": "Sleepy Bird's Dream",
+    "type": "toggle",
+    "img": "images/tracker/soullight.png",
+    "codes": "dreambird"
+  },
+  {
+    "name": "Sleepy Dolphin's Dream",
+    "type": "toggle",
+    "img": "images/tracker/soullight.png",
+    "codes": "dreamdolphin"
+  }
+]

@@ -209,7 +209,10 @@
                       },
                       {
                         "name": "Secret Cove",
-                        "access_rules": ["dreamrod,bigpearl,w3mermaidwestguard,w3dolphinsleepy"],
+                        "access_rules": [
+                          "dreamdolphin",
+                          "dreamrod,bigpearl,w3mermaidwestguard,w3dolphinsleepy"
+                        ],
                         "item_count": 4
                       }
                     ]
