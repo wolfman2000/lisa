@@ -34,7 +34,10 @@
               {
                 "name": "Lisa's Dream Soul and Item",
                 "clear_as_group": false,
-                "access_rules": ["w1bridgeguard,w1watermillkeeper,w1lisa,dreamrod"],
+                "access_rules": [
+                  "dreamlisa",
+                  "w1bridgeguard,w1watermillkeeper,w1lisa,dreamrod"
+                ],
                 "item_count": 2
               }
             ]
@@ -82,7 +85,13 @@
                 "item_count": 1
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "name": "East Grass Valley",
+        "access_rules": ["w1bridgeguard"],
+        "children": [
           {
             "name": "Right Goat's Pen",
             "map_locations": [
@@ -101,13 +110,7 @@
                 "item_count": 1
               }
             ]
-          }
-        ]
-      },
-      {
-        "name": "East Grass Valley",
-        "access_rules": ["w1bridgeguard"],
-        "children": [
+          },
           {
             "name": "Chest Cave",
             "map_locations": [
@@ -173,7 +176,7 @@
           },
           {
             "name": "Hideout",
-            "access_rules": ["pass"],
+            "access_rules": ["pass,w1boyguardinghideout"],
             "children": [
               {
                 "name": "Hideout Tile",

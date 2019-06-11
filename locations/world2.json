@@ -108,7 +108,10 @@
                 "y": 670
               }
             ],
-            "access_rules": [ "dreamrod,w2squirrelsleepy" ],
+            "access_rules": [
+              "dreamstump",
+              "dreamrod,w2squirrelsleepy"
+            ],
             "sections": [
               {
                 "name": "I believe I can fly...",
@@ -152,7 +155,10 @@
           },
           {
             "name": "RIP Turbo",
-            "access_rules": ["w2crocodileisland,w2crocodilegraveyard,w2sleepybird"],
+            "access_rules": [
+              "dreambird",
+              "w2crocodileisland,w2crocodilegraveyard,w2sleepybird,dreamrod"
+            ],
             "item_count": 1
           }
         ]
@@ -177,23 +183,6 @@
           {
             "name": "Hungry Squirrel's Roommate",
             "access_rules": ["w2squirrelroommate"],
-            "item_count": 1
-          }
-        ]
-      },
-      {
-        "name": "Lonely Squirrel",
-        "access_rules": ["w2squirrellonely"],
-        "map_locations": [
-          {
-            "map": "world2",
-            "x": 165,
-            "y": 100
-          }
-        ],
-        "sections": [
-          {
-            "name": "Thanks for visiting.",
             "item_count": 1
           }
         ]
