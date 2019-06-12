@@ -15,6 +15,7 @@ These are listed in roughly alphabetical order.
 * [netanonima](https://www.twitch.tv/netanonima) for making the original tracker and having resources to start from.
 * [Orphis](https://randoblazer.orphis.net/) for making the randomizer.
 * RandoBlazer Discord for offering a prior tournament and being a cool place to chill.
+* Skarsnik for advice on auto-tracking.
 * [TerraEarth](https://www.terraearth.com/soul-blazer/) for a few sprites.
 * [VGMaps](https://www.vgmaps.com/) for the maps.
   * Tropicon and Rick Bruns for specific attribution.
