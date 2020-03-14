@@ -3,7 +3,7 @@
   "game_name": "Soul Blazer Randomizer",
   "game_variant": "yes",
   "platform": "snes",
-  "package_version": "2.0.0.0",
+  "package_version": "2.1.0.0",
   "package_uid": "soulblazer-wolfman",
   "author": "Wolfman2000",
   "variants": {
@@ -18,6 +18,9 @@
     },
     "items_equipment-map_none": {
       "display_name": "Item (Equipment) Only Tracker"
+    },
+    "items_skarsnik-map_none": {
+      "display_name": "Item (Skarsnik) Only Tracker"
     }
   }
 }

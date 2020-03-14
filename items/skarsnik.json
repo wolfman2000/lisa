@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Mountain King",
+    "type": "toggle",
+    "img": "images/souls/mountainking.png",
+    "codes": "w4mountainking"
+  },
+  {
+    "name": "Dancing Grandma 1",
+    "type": "toggle",
+    "img": "images/labels/world4/dancinggrandma1.png",
+    "codes": "w4dancinggrandma1"
+  },
+  {
+    "name": "Dancing Grandma 2",
+    "type": "toggle",
+    "img": "images/labels/world4/dancinggrandma2.png",
+    "codes": "w4dancinggrandma2"
+  },
+  {
+    "name": "DANCING GRANDMAS!!!",
+    "type": "composite_toggle",
+    "codes": "dancinggrandmas",
+    "item_left": "w4dancinggrandma1",
+    "item_right": "w4dancinggrandma2",
+    "images": [
+      {
+        "left": false,
+        "right": false,
+        "img": "images/souls/grandmas-none.png"
+      },
+      {
+        "left": true,
+        "right": false,
+        "img": "images/souls/grandmas-left.png"
+      },
+      {
+        "left": false,
+        "right": true,
+        "img": "images/souls/grandmas-right.png"
+      },
+      {
+        "left": true,
+        "right": true,
+        "img": "images/souls/dancinggrandmas.png"
+      }
+    ]
+  }
+]

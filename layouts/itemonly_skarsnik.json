@@ -1,0 +1,95 @@
+{
+  "shared_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1",
+        "item_width": "48",
+        "item_height": "48",
+        "rows": [
+          [
+            "luckyblade",
+            "zantetsu",
+            "spirit",
+            "soulblade",
+            "bubblearmor",
+            "soularmor"
+          ],
+          [
+            "redhotball",
+            "redhotmirror",
+            "redhotrod",
+            "phoenix",
+            "platinumcard",
+            "vipcard"
+          ],
+          [
+            "dreamrod",
+            "leobrush",
+            "greenleaves",
+            "mushroomshoes",
+            "w4mountainking",
+            "dancinggrandmas"
+          ],
+          [
+            "chief",
+            "guardian",
+            "mermaid",
+            "nome",
+            "marie",
+            "king"
+          ]
+        ]
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "center",
+        "item_margin": "1",
+        "rows": [
+          [
+            "brownstone",
+            "greenstone",
+            "bluestone",
+            "",
+            "emblema",
+            "emblemb",
+            "emblemc",
+            "emblemd"
+          ],
+          [
+            "silverstone",
+            "purplestone",
+            "blackstone",
+            "",
+            "embleme",
+            "emblemf",
+            "emblemg",
+            "emblemh"
+          ]
+        ]
+      }
+    ]
+  },
+  "tracker_capture_item": {
+    "type": "container",
+    "content": {
+      "type": "layout",
+      "key": "shared_item_grid"
+    }
+  },
+  "tracker_default": {
+    "type": "container",
+    "background": "#212121",
+    "width": 324,
+    "height": 294,
+    "content": {
+      "dropshadow": true,
+      "margin": 1,
+      "type": "layout",
+      "key": "shared_item_grid"
+    }
+  }
+}
