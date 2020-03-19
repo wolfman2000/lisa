@@ -9,41 +9,45 @@ Tracker:AddItems( "items/inventory.json" )
 Tracker:AddItems( "items/souls.json" )
 Tracker:AddItems( "items/stones.json" )
 
-local i = 0
-local j = 0
-i, j = string.find( Tracker.ActiveVariantUID, "map_simple" )
-local x = 0
-local y = 0
-x, y = string.find( Tracker.ActiveVariantUID, "items_equipment" )
+local isSimple = string.find( Tracker.ActiveVariantUID, "map_simple" )
+local isEquipment = string.find( Tracker.ActiveVariantUID, "items_equipment" )
+local isSkarsnik = string.find( Tracker.ActiveVariantUID, "items_skarsnik" )
 
-if (i ~= nil and i > 0) then
-  for i=1,6 do
-    Tracker:AddItems( "items/labels/world" .. i .. ".json" )
+if ( isSkarsnik ~= nil and isSkarsnik > 0 ) then
+  Tracker:AddItems( "items/skarsnik.json" )
+end
+
+if (isSimple ~= nil and isSimple > 0) then
+  for j=1,6 do
+    Tracker:AddItems( "items/labels/world" .. j .. ".json" )
   end
-
   ScriptHost:LoadScript( "scripts/logic.lua" )
 
   Tracker:AddMaps( "maps/maps.json" )
 
-  for i=1,6 do
-    Tracker:AddLocations( "locations/world" .. i .. ".json" )
+  for j=1,6 do
+    Tracker:AddLocations( "locations/world" .. j .. ".json" )
   end
 
-  if ( x ~= nil and x > 0 ) then
+  if ( isEquipment ~= nil and isEquipment > 0 ) then
     Tracker:AddLayouts( "layouts/tracker_equipment.json" )
   else
     Tracker:AddLayouts( "layouts/tracker.json" )
   end
 else
-  if ( x ~= nil and x > 0 ) then
+  if ( isEquipment ~= nil and isEquipment > 0 ) then
     Tracker:AddLayouts( "layouts/itemonly_equipment.json" )
+  elseif isSkarsnik ~= nil and isSkarsnik > 0 then
+    Tracker:AddLayouts( "layouts/itemonly_skarsnik.json" )
   else
     Tracker:AddLayouts( "layouts/itemonly.json" )
   end
 end
 
-if ( x ~= nil and x > 0 ) then
+if ( isEquipment ~= nil and isEquipment > 0 ) then
   Tracker:AddLayouts( "layouts/broadcast_equipment.json" )
+elseif isSkarsnik ~= nil and isSkarsnik > 0 then
+  Tracker:AddLayouts( "layouts/broadcast_skarsnik.json" )
 else
   Tracker:AddLayouts( "layouts/broadcast.json" )
 end

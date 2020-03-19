@@ -11,6 +11,7 @@ More features are planned for this tracker, and issues can be raised as usual.
 
 These are listed in roughly alphabetical order.
 
+* Aeralis for some tips on using EmoTracker.
 * [EmoSaru and her tracker program](https://emotracker.net/) for allowing this tracker to exist.
 * [netanonima](https://www.twitch.tv/netanonima) for making the original tracker and having resources to start from.
 * [Orphis](https://randoblazer.orphis.net/) for making the randomizer.
